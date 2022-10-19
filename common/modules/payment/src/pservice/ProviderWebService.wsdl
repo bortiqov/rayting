@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- edited with XMLSpy v2011 rel. 2 (http://www.altova.com) by Sasha (QS) -->
+<wsdl:definitions xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl"  xmlns:tns="http://uws.provider.com/" name="ProviderWebService" targetNamespace="http://uws.provider.com/">
+	<wsdl:types>
+		<xs:schema>
+			<xs:import namespace="http://uws.provider.com/" schemaLocation="https://api.job-cafe.uz/payment/paynet/xsd"/>
+		</xs:schema>
+	</wsdl:types>
+	<wsdl:message name="PerformTransactionArguments">
+		<wsdl:part name="arguments" element="tns:PerformTransactionArguments"/>
+	</wsdl:message>
+	<wsdl:message name="PerformTransactionResult">
+		<wsdl:part name="result" element="tns:PerformTransactionResult"/>
+	</wsdl:message>
+	<wsdl:message name="CheckTransactionArguments">
+		<wsdl:part name="arguments" element="tns:CheckTransactionArguments"/>
+	</wsdl:message>
+	<wsdl:message name="CheckTransactionResult">
+		<wsdl:part name="result" element="tns:CheckTransactionResult"/>
+	</wsdl:message>
+	<wsdl:message name="CancelTransactionArguments">
+		<wsdl:part name="arguments" element="tns:CancelTransactionArguments"/>
+	</wsdl:message>
+	<wsdl:message name="CancelTransactionResult">
+		<wsdl:part name="result" element="tns:CancelTransactionResult"/>
+	</wsdl:message>
+	<wsdl:message name="GetStatementArguments">
+		<wsdl:part name="arguments" element="tns:GetStatementArguments"/>
+	</wsdl:message>
+	<wsdl:message name="GetStatementResult">
+		<wsdl:part name="result" element="tns:GetStatementResult"/>
+	</wsdl:message>
+	<wsdl:message name="GetInformationArguments">
+		<wsdl:part name="arguments" element="tns:GetInformationArguments"/>
+	</wsdl:message>
+	<wsdl:message name="GetInformationResult">
+		<wsdl:part name="result" element="tns:GetInformationResult"/>
+	</wsdl:message>
+    <wsdl:message name="ChangePasswordArguments">
+        <wsdl:part name="arguments" element="tns:ChangePasswordArguments"/>
+    </wsdl:message>
+    <wsdl:message name="ChangePasswordResult">
+        <wsdl:part name="result" element="tns:ChangePasswordResult"/>
+    </wsdl:message>
+	<wsdl:portType name="ProviderWebService">
+		<wsdl:operation name="PerformTransaction">
+			<wsdl:input message="tns:PerformTransactionArguments" wsaw:Action="urn:PerformTransactionArguments"/>
+			<wsdl:output message="tns:PerformTransactionResult" wsaw:Action="urn:PerformTransactionResult"/>
+		</wsdl:operation>
+		<wsdl:operation name="CheckTransaction">
+			<wsdl:input message="tns:CheckTransactionArguments" wsaw:Action="urn:CheckTransactionArguments"/>
+			<wsdl:output message="tns:CheckTransactionResult" wsaw:Action="urn:CheckTransactionResult"/>
+		</wsdl:operation>
+		<wsdl:operation name="CancelTransaction">
+			<wsdl:input message="tns:CancelTransactionArguments" wsaw:Action="urn:CancelTransactionArguments"/>
+			<wsdl:output message="tns:CancelTransactionResult" wsaw:Action="urn:CancelTransactionResult"/>
+		</wsdl:operation>
+		<wsdl:operation name="GetStatement">
+			<wsdl:input message="tns:GetStatementArguments" wsaw:Action="urn:GetStatementArguments"/>
+			<wsdl:output message="tns:GetStatementResult" wsaw:Action="urn:GetStatementResult"/>
+		</wsdl:operation>
+		<wsdl:operation name="GetInformation">
+			<wsdl:input message="tns:GetInformationArguments" wsaw:Action="urn:GetInformationArguments"/>
+			<wsdl:output message="tns:GetInformationResult" wsaw:Action="urn:GetInformationResult"/>
+		</wsdl:operation>
+        <wsdl:operation name="ChangePassword">
+            <wsdl:input message="tns:ChangePasswordArguments" wsaw:Action="urn:ChangePasswordArguments"/>
+            <wsdl:output message="tns:ChangePasswordResult" wsaw:Action="urn:ChangePasswordResult"/>
+        </wsdl:operation>
+	</wsdl:portType>
+	<wsdl:binding name="ProviderWebServiceBinding" type="tns:ProviderWebService">
+		<soap:binding style="document" transport="http://schemas.xmlsoap.org/soap/http"/>
+		<wsdl:operation name="PerformTransaction">
+			<soap:operation name="PerformTransaction" soapAction="urn:PerformTransaction" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="CheckTransaction">
+			<soap:operation name="CheckTransaction" soapAction="urn:CheckTransaction" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="CancelTransaction">
+			<soap:operation name="CancelTransaction" soapAction="urn:CancelTransaction" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetStatement">
+			<soap:operation name="GetStatement" soapAction="urn:GetStatement" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+		<wsdl:operation name="GetInformation">
+			<soap:operation name="GetInformation" soapAction="urn:GetInformation" style="document"/>
+			<wsdl:input>
+				<soap:body use="literal"/>
+			</wsdl:input>
+			<wsdl:output>
+				<soap:body use="literal"/>
+			</wsdl:output>
+		</wsdl:operation>
+        <wsdl:operation name="ChangePassword">
+            <soap:operation name="ChangePassword" soapAction="urn:ChangePassword" style="document"/>
+            <wsdl:input>
+                <soap:body use="literal"/>
+            </wsdl:input>
+            <wsdl:output>
+                <soap:body use="literal"/>
+            </wsdl:output>
+        </wsdl:operation>
+	</wsdl:binding>
+	<wsdl:service name="ProviderWebService">
+		<wsdl:port name="ProviderWebServicePort" binding="tns:ProviderWebServiceBinding">
+			<soap:address location="https://api.job-cafe.uz/payment/paynet"/>
+		</wsdl:port>
+	</wsdl:service>
+</wsdl:definitions>
