@@ -37,6 +37,7 @@ class Module extends \yii\base\Module
             'except' => [
                 '*/options',
                 'user/login',
+                '*/*'
             ],
             'optional' => [
             ],
@@ -44,7 +45,6 @@ class Module extends \yii\base\Module
                 HttpBearerAuth::class,
             ],
         ];
-
 
         $behaviors['corsFilter'] = [
             'class' => Cors::class,
@@ -83,6 +83,35 @@ class Module extends \yii\base\Module
         ],
         [
             'class' => 'yii\rest\UrlRule',
+            'controller' => 'v1/university',
+            'pluralize' => false,
+            'patterns' => [
+                'OPTIONS <action>' => 'options',
+                'OPTIONS ' => 'options',
+
+                'GET <year:\d+>' => 'index',
+                'POST' => 'create',
+                'PUT <id:\d+>' => 'update',
+                'DELETE <id:\d+>' => 'delete',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'controller' => 'v1/region',
+            'pluralize' => false,
+            'patterns' => [
+                'OPTIONS <action>' => 'options',
+                'OPTIONS ' => 'options',
+
+                'OPTIONS <id:\d+>/district' => 'options',
+                'GET <id:\d+>/district' => 'district',
+                'POST' => 'create',
+                'PUT <id:\d+>' => 'update',
+                'DELETE <id:\d+>' => 'delete',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
             'controller' => 'v1/employee',
             'pluralize' => false,
             'patterns' => [
@@ -103,7 +132,7 @@ class Module extends \yii\base\Module
                 'OPTIONS <action>' => 'options',
                 'OPTIONS ' => 'options',
 
-                'GET' => 'view',
+                'GET' => 'index',
                 'POST' => 'create',
                 'PUT <id:\d+>' => 'update',
                 'DELETE <id:\d+>' => 'delete',

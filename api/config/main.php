@@ -12,7 +12,7 @@ return [
     'controllerNamespace' => 'api\controllers',
     'bootstrap' => ['log'],
     'modules' => [
-        'v1' => \api\modules\v1\Module::class
+        'v1' => \api\modules\v1\Module::class,
     ],
     'components' => [
         'request' => [

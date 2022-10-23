@@ -2,6 +2,8 @@
 
 namespace backend\controllers;
 
+use app\models\DistrictRating;
+use app\models\Region;
 use common\models\Branch;
 use common\models\Companies;
 use common\models\Kindergarten;
@@ -20,7 +22,7 @@ use yii\web\UploadedFile;
 /**
  * StoreController implements the CRUD actions for Store model.
  */
-class ImportController extends Controller
+class RegionController extends Controller
 {
     /**
      * @inheritDoc
@@ -51,60 +53,67 @@ class ImportController extends Controller
 
     public function actionIndex()
     {
-        $query = University::find();
+        $query = Region::find();
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
-        $dataProvider->pagination->pageSize = 100;
-        error_reporting(!8);
-        $transaction = \Yii::$app->db->beginTransaction();
-        $imageFile = './uploads/Marketing.xls';
 
-        $xls = UploadedFile::getInstance($model, 'file');
+//        var_dump(Yii::$app->request->post(),$_FILES);
+//        die();
+        $dataProvider->pagination->pageSize = 100;
+        $transaction = \Yii::$app->db->beginTransaction();
+
+        $xls = UploadedFile::getInstanceByName('file');
         $simple = new  SimpleXLSX($xls->tempName);
 //        $xlsx = SimpleXLSX::parse($xls->tempName)
 //        $simple->sheetsCount();
 
         if ($xlsx = SimpleXLSX::parse($xls->tempName)) {
-            $rows = $simple->rows();
-
+            $rows = $simple->rows(1);
+//            echo "<pre>";
+//            var_dump($rows);
+//            die();
             $data = [];
 
             foreach ($rows as $index => $row) {
 
-                if ($index < 8 || $index > 22) {
+                if ($index < 2) {
                     continue;
                 }
-                $hudud = $row[1] ?? "Jami";
-                $child_count = $row[2];
-                $boy_count = $row[3];
-                $total_mtt_count = $row[4];
-                $country_mtt_count = $row[5];
-                $child_count_two = $row[6];
-                $boy_count_two = $row[7];
-                $total_mtt_two = $row[8];
 
-                $data[] = [$hudud, $child_count, $boy_count, $total_mtt_count, $country_mtt_count, $child_count_two, $boy_count_two, $total_mtt_two];
+                $region_id = Region::find()->andWhere(['title' => $row[1]])->one()->id;
+                $title = $row[2];
+                $rating = round($row[3], 2);
+
+                $data[] = [$region_id, $title, $rating];
             }
 
-            Yii::$app->db->createCommand()->batchInsert('kindergarten', [
-                'hudud',
-                'child_count',
-                'boy_count',
-                'total_mtt_count',
-                'country_mtt_count',
-                'child_count_two',
-                'boy_count_two',
-                'total_mtt_two',
+            Yii::$app->db->createCommand()->batchInsert('district_rating', [
+                'region_id',
+                'title',
+                'rating',
             ], $data)->execute();
-
             $transaction->commit();
-            return $this->redirect('index');
         }
 
         return $this->render('index', [
-            'model' => $model,
             'dataProvider' => $dataProvider
         ]);
     }
+
+
+
+
+    public function actionCreate()
+    {
+        $file = UploadedFile::getInstanceByName('university');
+        var_dump($file);
+        die();
+        if ($_FILES) {
+            var_dump($_FILES);
+            die();
+        }
+        return $this->render('create');
+    }
+
 }

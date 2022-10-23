@@ -2714,3 +2714,2058 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1665723505.3997
     'REQUEST_TIME' => 1665723505
 ]
+2022-10-23 00:19:17 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:19:17 [127.0.0.1][-][-][error][yii\di\NotInstantiableException] ReflectionException: Class api\modules\v1\Module does not exist in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php:507
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php(507): ReflectionClass->__construct()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php(385): yii\di\Container->getDependencies()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(445): yii\BaseYii::createObject()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(610): yii\base\Module->getModule()
+#6 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#7 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#8 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#9 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#10 {main}
+
+Next yii\di\NotInstantiableException: Failed to instantiate component or class "api\modules\v1\Module". in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php:509
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php(385): yii\di\Container->getDependencies()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\di\Container.php(170): yii\di\Container->build()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\BaseYii.php(345): yii\di\Container->get()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(445): yii\BaseYii::createObject()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(610): yii\base\Module->getModule()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(546): yii\base\Module->createController()
+#6 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#7 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#8 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#9 {main}
+2022-10-23 00:19:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59065'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'e89732e4-6aaa-4af1-98f5-17d9ef70eca4'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473557.9185
+    'REQUEST_TIME' => 1666473557
+]
+2022-10-23 00:22:22 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:22:22 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/company/view in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 00:22:22 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59090'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'b3a7f671-4921-4cb3-9e17-7bd4efe3d351'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473742.4431
+    'REQUEST_TIME' => 1666473742
+]
+2022-10-23 00:22:28 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:22:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/company/view in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 00:22:28 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59092'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '3539c109-5eb7-412f-9b55-c66f07372371'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473748.4982
+    'REQUEST_TIME' => 1666473748
+]
+2022-10-23 00:22:48 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:22:48 [127.0.0.1][-][-][error][yii\web\HttpException:401] yii\web\UnauthorizedHttpException: Your request was made with invalid credentials. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\filters\auth\AuthMethod.php:93
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\filters\auth\AuthMethod.php(76): yii\filters\auth\AuthMethod->handleFailure()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\filters\auth\CompositeAuth.php(57): yii\filters\auth\AuthMethod->beforeAction()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\ActionFilter.php(77): yii\filters\auth\CompositeAuth->beforeAction()
+#3 [internal function]: yii\base\ActionFilter->beforeFilter()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Component.php(633): call_user_func()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(724): yii\base\Component->trigger()
+#6 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(166): yii\base\Module->beforeAction()
+#7 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#8 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#9 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#10 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#11 {main}
+2022-10-23 00:22:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '49886'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd850728c-16a8-4b45-bbb9-f381b02d0404'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473768.8254
+    'REQUEST_TIME' => 1666473768
+]
+2022-10-23 00:23:07 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:23:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54421'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '844dabf1-2119-4164-bfcf-306d1bf40439'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473787.7216
+    'REQUEST_TIME' => 1666473787
+]
+2022-10-23 00:23:16 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:23:16 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54423'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '8276511a-a3d4-44b9-b436-c67986c4f1a4'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473796.2147
+    'REQUEST_TIME' => 1666473796
+]
+2022-10-23 00:23:51 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 00:23:51 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54428'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '173bc33f-d174-4061-ae41-c51c973e219f'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666473831.7922
+    'REQUEST_TIME' => 1666473831
+]
+2022-10-23 09:47:44 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:47:44 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-67f2d95c' => '53e0c3cb-62a1-4648-9179-ea9e10936e98'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64589'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'Phpstorm-67f2d95c=53e0c3cb-62a1-4648-9179-ea9e10936e98'
+    'REQUEST_TIME_FLOAT' => 1666507664.2079
+    'REQUEST_TIME' => 1666507664
+]
+2022-10-23 09:48:04 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:48:04 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "vi". in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 09:48:03 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-67f2d95c' => '53e0c3cb-62a1-4648-9179-ea9e10936e98'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64590'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/vi'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/vi'
+    'PHP_SELF' => '/index.php/vi'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'Phpstorm-67f2d95c=53e0c3cb-62a1-4648-9179-ea9e10936e98'
+    'REQUEST_TIME_FLOAT' => 1666507683.9852
+    'REQUEST_TIME' => 1666507683
+]
+2022-10-23 09:48:07 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:48:07 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1". in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 09:48:07 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-67f2d95c' => '53e0c3cb-62a1-4648-9179-ea9e10936e98'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '64591'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1'
+    'PHP_SELF' => '/index.php/v1'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'Phpstorm-67f2d95c=53e0c3cb-62a1-4648-9179-ea9e10936e98'
+    'REQUEST_TIME_FLOAT' => 1666507687.2902
+    'REQUEST_TIME' => 1666507687
+]
+2022-10-23 09:48:25 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:48:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-67f2d95c' => '53e0c3cb-62a1-4648-9179-ea9e10936e98'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '61589'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'Phpstorm-67f2d95c=53e0c3cb-62a1-4648-9179-ea9e10936e98'
+    'REQUEST_TIME_FLOAT' => 1666507705.5151
+    'REQUEST_TIME' => 1666507705
+]
+2022-10-23 09:52:13 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:52:13 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'Phpstorm-67f2d95c' => '53e0c3cb-62a1-4648-9179-ea9e10936e98'
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54862'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_SEC_CH_UA' => '\"Chromium\";v=\"106\", \"Google Chrome\";v=\"106\", \"Not;A=Brand\";v=\"99\"'
+    'HTTP_SEC_CH_UA_MOBILE' => '?0'
+    'HTTP_SEC_CH_UA_PLATFORM' => '\"Windows\"'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_SEC_FETCH_SITE' => 'none'
+    'HTTP_SEC_FETCH_MODE' => 'navigate'
+    'HTTP_SEC_FETCH_USER' => '?1'
+    'HTTP_SEC_FETCH_DEST' => 'document'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'HTTP_COOKIE' => 'Phpstorm-67f2d95c=53e0c3cb-62a1-4648-9179-ea9e10936e98'
+    'REQUEST_TIME_FLOAT' => 1666507933.8811
+    'REQUEST_TIME' => 1666507933
+]
+2022-10-23 09:53:19 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:53:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '54887'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666507999.8495
+    'REQUEST_TIME' => 1666507999
+]
+2022-10-23 09:54:19 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:54:19 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate'
+    'HTTP_ACCEPT_LANGUAGE' => 'ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,lt;q=0.6,uz;q=0.5'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '54896'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666508059.1695
+    'REQUEST_TIME' => 1666508059
+]
+2022-10-23 09:55:38 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:55:38 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63070'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'e2976ded-9168-400b-b01f-37a2ad503d99'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508138.7222
+    'REQUEST_TIME' => 1666508138
+]
+2022-10-23 09:58:21 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:58:21 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/company/217 in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 09:58:21 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52381'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company/217'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company/217'
+    'PHP_SELF' => '/index.php/v1/company/217'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'a2c5a688-dd20-4145-8fea-9946406a0860'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508301.0765
+    'REQUEST_TIME' => 1666508301
+]
+2022-10-23 09:58:25 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:58:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52383'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/company'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/company'
+    'PHP_SELF' => '/index.php/v1/company'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'e6b6e0b1-b03d-477a-b899-ef934f43a041'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508305.6104
+    'REQUEST_TIME' => 1666508305
+]
+2022-10-23 09:58:52 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:58:52 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: year in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 09:58:52 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59199'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university'
+    'PHP_SELF' => '/index.php/v1/university'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'ecdd4986-8305-4865-ab55-9b79780ba481'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508332.2763
+    'REQUEST_TIME' => 1666508332
+]
+2022-10-23 09:59:34 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:59:34 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: year in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 09:59:34 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59204'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university'
+    'PHP_SELF' => '/index.php/v1/university'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '9852dbec-bce4-41d0-aadd-aa79c8d66eeb'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508374.9217
+    'REQUEST_TIME' => 1666508374
+]
+2022-10-23 09:59:39 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 09:59:39 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '59206'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '0a615b82-5f2a-41e9-80dc-0d0e34d95838'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508379.4538
+    'REQUEST_TIME' => 1666508379
+]
+2022-10-23 10:02:54 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:02:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62892'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'b2e86537-ed43-4ef0-8838-3741dfa7377e'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508574.3122
+    'REQUEST_TIME' => 1666508574
+]
+2022-10-23 10:03:02 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:03:02 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62896'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd744e13a-3ea6-4152-b4b9-93b7bf95f601'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508582.6049
+    'REQUEST_TIME' => 1666508582
+]
+2022-10-23 10:03:03 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:03:03 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62899'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd33308e5-543e-4df7-a3f8-586ab4d80339'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508583.8087
+    'REQUEST_TIME' => 1666508583
+]
+2022-10-23 10:03:13 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:03:13 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50726'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'f81b1892-e808-484a-bb24-02aade946d05'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508593.3653
+    'REQUEST_TIME' => 1666508593
+]
+2022-10-23 10:03:21 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:03:20 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50729'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '347173a0-8843-4363-9a67-5efe8d29ee96'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1666508600.8831
+    'REQUEST_TIME' => 1666508600
+]
+2022-10-23 10:16:14 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:16:14 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '59d66a54-29d1-4878-8328-c63f04feb184'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '61425'
+    'REDIRECT_URL' => '/v1/university/2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/university/2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666509374.0097
+    'REQUEST_TIME' => 1666509374
+]
+2022-10-23 10:16:54 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:16:54 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '50b34c66-1668-48e5-ae6f-4d81ab4bb5cf'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '61428'
+    'REDIRECT_URL' => '/v1/university/2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/university/2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666509414.2442
+    'REQUEST_TIME' => 1666509414
+]
+2022-10-23 10:17:01 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:17:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2018'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '9f7b45a1-6449-4eb2-83af-296e198f2365'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '51720'
+    'REDIRECT_URL' => '/v1/university/2018'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/university/2018'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666509421.7201
+    'REQUEST_TIME' => 1666509421
+]
+2022-10-23 10:17:06 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:17:06 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '6821bfdb-6133-4c26-aef3-438da045466f'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '51722'
+    'REDIRECT_URL' => '/v1/university/2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/university/2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666509426.3336
+    'REQUEST_TIME' => 1666509426
+]
+2022-10-23 10:20:43 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 10:20:43 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '127625d4-5dc9-488a-abd4-2de202642f9e'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '58302'
+    'REDIRECT_URL' => '/v1/university/2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/university/2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666509643.8697
+    'REQUEST_TIME' => 1666509643
+]
+2022-10-23 12:08:27 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:08:27 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: region_id in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 12:08:27 [127.0.0.1][-][-][info][application] $_GET = [
+    'region' => '2017'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '88262b8e-4949-4678-bb53-2444f63417d0'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '52862'
+    'REDIRECT_URL' => '/v1/region/2017'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/2017'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516107.6357
+    'REQUEST_TIME' => 1666516107
+]
+2022-10-23 12:08:32 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:08:32 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: year in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 12:08:32 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '9282d1af-53c0-491b-a972-cd325bb3f306'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '52864'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516112.6288
+    'REQUEST_TIME' => 1666516112
+]
+2022-10-23 12:08:37 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:08:37 [127.0.0.1][-][-][error][Error] Error: Class 'app\models\Region' not found in D:\OpenServer\domains\projects\diplom-work\api\modules\v1\controllers\RegionController.php:19
+Stack trace:
+#0 [internal function]: api\modules\v1\controllers\RegionController->actionIndex()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#6 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#7 {main}
+2022-10-23 12:08:37 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '5c24ff1c-83bc-4b35-8764-c512482fbeab'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '52865'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516117.5134
+    'REQUEST_TIME' => 1666516117
+]
+2022-10-23 12:09:29 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:09:29 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'a732789c-0a14-435b-8f33-18a4bee057df'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '58509'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516169.8056
+    'REQUEST_TIME' => 1666516169
+]
+2022-10-23 12:09:43 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:09:43 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1/district". in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 12:09:43 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '297f59e2-f84d-4198-81b2-f8bb111b6a5e'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '58518'
+    'REDIRECT_URL' => '/v1/district'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/district'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516183.1658
+    'REQUEST_TIME' => 1666516183
+]
+2022-10-23 12:09:48 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:09:48 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request "v1region/1". in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php:561
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#2 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#3 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-23 12:09:48 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '7ada5df6-b9dc-45b8-bc57-280d23c0654d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '58519'
+    'REDIRECT_URL' => '/v1region/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1region/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516188.495
+    'REQUEST_TIME' => 1666516188
+]
+2022-10-23 12:09:52 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:09:52 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: region_id in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 12:09:52 [127.0.0.1][-][-][info][application] $_GET = [
+    'region' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '645a2b20-4c9c-49e2-9a2f-fccf28498498'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '58521'
+    'REDIRECT_URL' => '/v1/region/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516192.3984
+    'REQUEST_TIME' => 1666516192
+]
+2022-10-23 12:10:34 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:10:34 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Missing required parameters: region_id in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-23 12:10:34 [127.0.0.1][-][-][info][application] $_GET = [
+    'region' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '4e7729c6-fec7-4c32-9ba6-e19f9fedd947'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '53838'
+    'REDIRECT_URL' => '/v1/region/1'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/1'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516234.0628
+    'REQUEST_TIME' => 1666516234
+]
+2022-10-23 12:10:41 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:10:41 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '0ebf1eb7-de14-495d-99e5-21f47d70ab37'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '53840'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516241.6304
+    'REQUEST_TIME' => 1666516241
+]
+2022-10-23 12:11:35 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:11:35 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'e3e273ac-c6b1-4ce2-99f2-9ca260e1e227'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '64357'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516295.3218
+    'REQUEST_TIME' => 1666516295
+]
+2022-10-23 12:11:44 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:11:44 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'eed16670-17ca-4cc1-81f1-242793cbe95d'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '64360'
+    'REDIRECT_URL' => '/v1/region/2/district'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/2/district'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516304.5152
+    'REQUEST_TIME' => 1666516304
+]
+2022-10-23 12:12:01 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:12:01 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '5abc9636-7c53-4e40-bd84-be04f3ca8372'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '60677'
+    'REDIRECT_URL' => '/v1/region/1/district'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/1/district'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516321.0564
+    'REQUEST_TIME' => 1666516321
+]
+2022-10-23 12:12:11 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:12:11 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '6'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'bae73a9a-891d-4010-8b3f-123759d139d2'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '60680'
+    'REDIRECT_URL' => '/v1/region/6/district'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region/6/district'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516331.7349
+    'REQUEST_TIME' => 1666516331
+]
+2022-10-23 12:12:17 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-23 12:12:17 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'REDIRECT_STATUS' => '200'
+    'HTTP_HOST' => 'api.rayting.loc'
+    'HTTP_X_FORWARDED_PROTO' => 'http'
+    'HTTP_X_REAL_IP' => '127.0.0.1'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '4649e75f-54d5-42e7-bae1-7e2642b3e3bf'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'PATH' => 'd:\\openserver\\modules\\php\\PHP_7.4\\ext;d:\\openserver\\modules\\php\\PHP_7.4\\pear;d:\\openserver\\modules\\php\\PHP_7.4\\pear\\bin;d:\\openserver\\modules\\php\\PHP_7.4;d:\\openserver\\modules\\wget\\bin;d:\\openserver\\modules\\database\\MySQL-8.0-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\bin;d:\\openserver\\modules\\database\\PostgreSQL-11.12-Win10\\lib;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\\bin;d:\\openserver\\modules\\http\\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64;C:\\Program Files (x86)\\NVIDIA Corporation\\PhysX\\Common;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\System32\\Wbem;C:\\Windows\\System32\\WindowsPowerShell\\v1.0\\;C:\\Windows\\System32\\OpenSSH\\;C:\\Program Files\\Git\\cmd;D:\\OpenServer\\modules\\php\\PHP_7.4;C:\\Program Files\\Docker\\Docker\\resources\\bin;C:\\ProgramData\\DockerDesktop\\version-bin;C:\\Users\\Lenovo\\AppData\\Local\\Microsoft\\WindowsApps;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code\\bin;C:\\Users\\Lenovo\\AppData\\Local\\Programs\\Microsoft VS Code Insiders\\bin'
+    'SystemRoot' => 'C:\\Windows'
+    'COMSPEC' => 'C:\\Windows\\system32\\cmd.exe'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'WINDIR' => 'C:\\Windows'
+    'SERVER_SIGNATURE' => ''
+    'SERVER_SOFTWARE' => 'Apache'
+    'SERVER_NAME' => 'api.rayting.loc'
+    'SERVER_ADDR' => '127.0.0.1'
+    'SERVER_PORT' => '80'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'REQUEST_SCHEME' => 'http'
+    'CONTEXT_PREFIX' => ''
+    'CONTEXT_DOCUMENT_ROOT' => 'D:/OpenServer/domains/projects/diplom-work/api/web'
+    'SERVER_ADMIN' => '[no address given]'
+    'SCRIPT_FILENAME' => 'D:/OpenServer/domains/projects/diplom-work/api/web/index.php'
+    'REMOTE_PORT' => '60682'
+    'REDIRECT_URL' => '/v1/region'
+    'GATEWAY_INTERFACE' => 'CGI/1.1'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'REQUEST_METHOD' => 'GET'
+    'QUERY_STRING' => ''
+    'REQUEST_URI' => '/v1/region'
+    'SCRIPT_NAME' => '/index.php'
+    'PHP_SELF' => '/index.php'
+    'REQUEST_TIME_FLOAT' => 1666516337.3155
+    'REQUEST_TIME' => 1666516337
+]
