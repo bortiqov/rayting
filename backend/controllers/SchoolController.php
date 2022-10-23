@@ -2,9 +2,11 @@
 
 namespace backend\controllers;
 
+use backend\models\Region;
 use common\models\Branch;
 use common\models\Companies;
 use common\models\Kindergarten;
+use common\models\School;
 use common\models\University;
 use common\modules\excel\models\FromExcel;
 use common\modules\language\models\Language;
@@ -51,7 +53,7 @@ class SchoolController extends Controller
 
     public function actionIndex()
     {
-        $query = University::find()->andWhere(['year' => 2021]);
+        $query = School::find();
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
@@ -67,7 +69,7 @@ class SchoolController extends Controller
 //        $simple->sheetsCount();
 
         if ($xlsx = SimpleXLSX::parse($xls->tempName)) {
-            $rows = $simple->rows();
+            $rows = $simple->rows(2);
 //            echo "<pre>";
 //            var_dump($rows);
 //            die();
@@ -78,32 +80,25 @@ class SchoolController extends Controller
                 if ($index < 2) {
                     continue;
                 }
-                $title = $row[5];
-                $prof_teach = round($row[6], 2);
-                $method_teach = round($row[7], 2);
-                $pupil_smart = round($row[8], 2);
-                $physical = round($row[9], 2);
-                $total = round($row[10], 2);
-                $expert = $row[11];
 
-                $data[] = [$title, $prof_teach, $method_teach, $pupil_smart, $physical, $expert, $total, 2021];
+                $region_id = Region::find()->andWhere(['title' => $row[1]])->one()->id;
+                $district_title = $row[2];
+                $title = $row[3];
+                $rating = round($row[4], 2);
+
+                $data[] = [$region_id, $district_title, $title, $rating];
             }
 
-            Yii::$app->db->createCommand()->batchInsert('university', [
+            Yii::$app->db->createCommand()->batchInsert('school', [
+                'region_id',
+                'district_title',
                 'title',
-                'prof_teach',
-                'teach_method',
-                'pupil_smart',
-                'physical',
-                'expert',
-                'total',
-                'year'
+                'rayting',
             ], $data)->execute();
             $transaction->commit();
         }
 
         return $this->render('index', [
-            'model' => $model,
             'dataProvider' => $dataProvider
         ]);
     }

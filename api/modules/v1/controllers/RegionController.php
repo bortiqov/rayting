@@ -10,10 +10,17 @@ use common\models\search\CompanySearch;
 use common\models\University;
 use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
+use yii\rest\OptionsAction;
 
 class RegionController extends Controller
 {
 
+    public function actions()
+    {
+        return [
+            'options' => OptionsAction::class
+        ];
+    }
     public function actionIndex()
     {
         $query = Region::find();
@@ -26,6 +33,21 @@ class RegionController extends Controller
     }
 
     public function actionDistrict($id)
+    {
+        $query = DistrictRating::find()->andWhere(['region_id' => $id]);
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query
+        ]);
+
+//        var_dump(Yii::$app->request->post(),$_FILES);
+//        die();
+        $dataProvider->pagination->pageSize = 100;
+
+        return $dataProvider;
+
+    }
+
+    public function actionSchool($id)
     {
         $query = DistrictRating::find()->andWhere(['region_id' => $id]);
         $dataProvider = new ActiveDataProvider([

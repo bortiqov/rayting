@@ -89,6 +89,7 @@ class Module extends \yii\base\Module
                 'OPTIONS <action>' => 'options',
                 'OPTIONS ' => 'options',
 
+                'OPTIONS <year:\d+>' => 'options',
                 'GET <year:\d+>' => 'index',
                 'POST' => 'create',
                 'PUT <id:\d+>' => 'update',

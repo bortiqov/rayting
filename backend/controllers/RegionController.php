@@ -2,8 +2,8 @@
 
 namespace backend\controllers;
 
-use app\models\DistrictRating;
-use app\models\Region;
+use backend\models\DistrictRating;
+use backend\models\Region;
 use common\models\Branch;
 use common\models\Companies;
 use common\models\Kindergarten;
