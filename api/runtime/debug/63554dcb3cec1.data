@@ -1,0 +1,811 @@
+a:14:{s:6:"config";s:3352:"a:5:{s:10:"phpVersion";s:6:"7.4.21";s:10:"yiiVersion";s:6:"2.0.46";s:11:"application";a:8:{s:3:"yii";s:6:"2.0.46";s:4:"name";s:14:"My Application";s:7:"version";s:3:"1.0";s:8:"language";s:2:"ru";s:14:"sourceLanguage";s:5:"en-US";s:7:"charset";s:5:"UTF-8";s:3:"env";s:3:"dev";s:5:"debug";b:1;}s:3:"php";a:5:{s:7:"version";s:6:"7.4.21";s:6:"xdebug";b:0;s:3:"apc";b:0;s:8:"memcache";b:0;s:9:"memcached";b:0;}s:10:"extensions";a:13:{s:23:"yiisoft/yii2-bootstrap4";a:3:{s:4:"name";s:23:"yiisoft/yii2-bootstrap4";s:7:"version";s:8:"2.0.10.0";s:5:"alias";a:1:{s:15:"@yii/bootstrap4";s:77:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-bootstrap4/src";}}s:18:"yiisoft/yii2-faker";a:3:{s:4:"name";s:18:"yiisoft/yii2-faker";s:7:"version";s:7:"2.0.5.0";s:5:"alias";a:1:{s:10:"@yii/faker";s:72:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-faker/src";}}s:16:"yiisoft/yii2-gii";a:3:{s:4:"name";s:16:"yiisoft/yii2-gii";s:7:"version";s:7:"2.2.4.0";s:5:"alias";a:1:{s:8:"@yii/gii";s:70:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-gii/src";}}s:24:"yiisoft/yii2-swiftmailer";a:3:{s:4:"name";s:24:"yiisoft/yii2-swiftmailer";s:7:"version";s:7:"2.1.3.0";s:5:"alias";a:1:{s:16:"@yii/swiftmailer";s:78:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-swiftmailer/src";}}s:21:"yiithings/yii2-dotenv";a:3:{s:4:"name";s:21:"yiithings/yii2-dotenv";s:7:"version";s:7:"1.0.2.0";s:5:"alias";a:1:{s:17:"@yiithings/dotenv";s:75:"D:\OpenServer\domains\projects\diplom-work\vendor/yiithings/yii2-dotenv/src";}}s:22:"yiisoft/yii2-bootstrap";a:3:{s:4:"name";s:22:"yiisoft/yii2-bootstrap";s:7:"version";s:8:"2.0.11.0";s:5:"alias";a:1:{s:14:"@yii/bootstrap";s:76:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-bootstrap/src";}}s:24:"rmrevin/yii2-fontawesome";a:3:{s:4:"name";s:24:"rmrevin/yii2-fontawesome";s:7:"version";s:8:"2.17.1.0";s:5:"alias";a:1:{s:24:"@rmrevin/yii/fontawesome";s:74:"D:\OpenServer\domains\projects\diplom-work\vendor/rmrevin/yii2-fontawesome";}}s:18:"cebe/yii2-gravatar";a:3:{s:4:"name";s:18:"cebe/yii2-gravatar";s:7:"version";s:7:"1.1.0.0";s:5:"alias";a:1:{s:14:"@cebe/gravatar";s:82:"D:\OpenServer\domains\projects\diplom-work\vendor/cebe/yii2-gravatar/cebe/gravatar";}}s:25:"dmstr/yii2-adminlte-asset";a:3:{s:4:"name";s:25:"dmstr/yii2-adminlte-asset";s:7:"version";s:7:"2.6.2.0";s:5:"alias";a:1:{s:6:"@dmstr";s:75:"D:\OpenServer\domains\projects\diplom-work\vendor/dmstr/yii2-adminlte-asset";}}s:18:"yiisoft/yii2-debug";a:3:{s:4:"name";s:18:"yiisoft/yii2-debug";s:7:"version";s:8:"2.1.19.0";s:5:"alias";a:1:{s:10:"@yii/debug";s:72:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-debug/src";}}s:20:"yiisoft/yii2-imagine";a:3:{s:4:"name";s:20:"yiisoft/yii2-imagine";s:7:"version";s:7:"2.2.0.0";s:5:"alias";a:1:{s:12:"@yii/imagine";s:74:"D:\OpenServer\domains\projects\diplom-work\vendor/yiisoft/yii2-imagine/src";}}s:14:"conquer/oauth2";a:3:{s:4:"name";s:14:"conquer/oauth2";s:7:"version";s:7:"1.7.1.0";s:5:"alias";a:1:{s:15:"@conquer/oauth2";s:68:"D:\OpenServer\domains\projects\diplom-work\vendor/conquer/oauth2/src";}}s:22:"rakhmatov/yii2-payment";a:3:{s:4:"name";s:22:"rakhmatov/yii2-payment";s:7:"version";s:12:"1.1.200625.0";s:5:"alias";a:1:{s:18:"@rakhmatov/payment";s:76:"D:\OpenServer\domains\projects\diplom-work\vendor/rakhmatov/yii2-payment/src";}}}}";s:7:"request";s:4443:"a:15:{s:7:"flashes";a:0:{}s:10:"statusCode";i:200;s:14:"requestHeaders";a:8:{s:4:"host";s:13:"192.168.0.109";s:9:"x-real-ip";s:13:"192.168.0.108";s:6:"accept";s:33:"application/json, text/plain, */*";s:10:"user-agent";s:111:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36";s:6:"origin";s:21:"http://localhost:3000";s:7:"referer";s:22:"http://localhost:3000/";s:15:"accept-encoding";s:13:"gzip, deflate";s:15:"accept-language";s:53:"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uz;q=0.6,tg;q=0.5";}s:15:"responseHeaders";a:9:{s:27:"Access-Control-Allow-Origin";s:1:"*";s:32:"Access-Control-Allow-Credentials";s:5:"false";s:29:"Access-Control-Expose-Headers";s:1:"*";s:28:"Access-Control-Allow-Headers";s:45:"Authorization, X-Requested-With, content-type";s:4:"Vary";a:2:{i:0;s:6:"Accept";i:1;s:15:"Accept-Language";}s:12:"Content-Type";s:31:"application/json; charset=UTF-8";s:11:"X-Debug-Tag";s:13:"63554dcb3cec1";s:16:"X-Debug-Duration";s:3:"124";s:12:"X-Debug-Link";s:37:"/debug/default/view?tag=63554dcb3cec1";}s:5:"route";s:23:"v1/region/district-list";s:6:"action";s:65:"api\modules\v1\controllers\RegionController::actionDistrictList()";s:12:"actionParams";a:0:{}s:7:"general";a:5:{s:6:"method";s:3:"GET";s:6:"isAjax";b:0;s:6:"isPjax";b:0;s:7:"isFlash";b:0;s:18:"isSecureConnection";b:0;}s:11:"requestBody";a:0:{}s:6:"SERVER";a:39:{s:15:"REDIRECT_STATUS";s:3:"200";s:9:"HTTP_HOST";s:13:"192.168.0.109";s:22:"HTTP_X_FORWARDED_PROTO";s:4:"http";s:14:"HTTP_X_REAL_IP";s:13:"192.168.0.108";s:11:"HTTP_ACCEPT";s:33:"application/json, text/plain, */*";s:15:"HTTP_USER_AGENT";s:111:"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/106.0.0.0 Safari/537.36";s:11:"HTTP_ORIGIN";s:21:"http://localhost:3000";s:12:"HTTP_REFERER";s:22:"http://localhost:3000/";s:20:"HTTP_ACCEPT_ENCODING";s:13:"gzip, deflate";s:20:"HTTP_ACCEPT_LANGUAGE";s:53:"ru-RU,ru;q=0.9,en-US;q=0.8,en;q=0.7,uz;q=0.6,tg;q=0.5";s:4:"PATH";s:1065:"d:\openserver\modules\php\PHP_7.4\ext;d:\openserver\modules\php\PHP_7.4\pear;d:\openserver\modules\php\PHP_7.4\pear\bin;d:\openserver\modules\php\PHP_7.4;d:\openserver\modules\wget\bin;d:\openserver\modules\database\MySQL-8.0-Win10\bin;d:\openserver\modules\database\PostgreSQL-11.12-Win10\bin;d:\openserver\modules\database\PostgreSQL-11.12-Win10\lib;d:\openserver\modules\http\Apache_2.4-PHP_7.2-7.4+Nginx_1.21\bin;d:\openserver\modules\http\Apache_2.4-PHP_7.2-7.4+Nginx_1.21;C:\Windows\system32;C:\Windows;C:\Windows\system32\Wbem;C:\Windows\SysWOW64;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Git\cmd;D:\OpenServer\modules\php\PHP_7.4;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\Lenovo\AppData\Local\Microsoft\WindowsApps;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\Lenovo\AppData\Local\Programs\Microsoft VS Code Insiders\bin";s:10:"SystemRoot";s:10:"C:\Windows";s:7:"COMSPEC";s:27:"C:\Windows\system32\cmd.exe";s:7:"PATHEXT";s:53:".COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC";s:6:"WINDIR";s:10:"C:\Windows";s:16:"SERVER_SIGNATURE";s:0:"";s:15:"SERVER_SOFTWARE";s:6:"Apache";s:11:"SERVER_NAME";s:13:"192.168.0.109";s:11:"SERVER_ADDR";s:9:"127.0.0.1";s:11:"SERVER_PORT";s:2:"80";s:11:"REMOTE_ADDR";s:9:"127.0.0.1";s:13:"DOCUMENT_ROOT";s:50:"D:/OpenServer/domains/projects/diplom-work/api/web";s:14:"REQUEST_SCHEME";s:4:"http";s:14:"CONTEXT_PREFIX";s:0:"";s:21:"CONTEXT_DOCUMENT_ROOT";s:50:"D:/OpenServer/domains/projects/diplom-work/api/web";s:12:"SERVER_ADMIN";s:18:"[no address given]";s:15:"SCRIPT_FILENAME";s:60:"D:/OpenServer/domains/projects/diplom-work/api/web/index.php";s:11:"REMOTE_PORT";s:5:"63912";s:12:"REDIRECT_URL";s:19:"/v1/region/district";s:21:"REDIRECT_QUERY_STRING";s:14:"include=region";s:17:"GATEWAY_INTERFACE";s:7:"CGI/1.1";s:15:"SERVER_PROTOCOL";s:8:"HTTP/1.1";s:14:"REQUEST_METHOD";s:3:"GET";s:12:"QUERY_STRING";s:14:"include=region";s:11:"REQUEST_URI";s:34:"/v1/region/district?include=region";s:11:"SCRIPT_NAME";s:10:"/index.php";s:8:"PHP_SELF";s:10:"/index.php";s:18:"REQUEST_TIME_FLOAT";d:1666534859.219062;s:12:"REQUEST_TIME";i:1666534859;}s:3:"GET";a:1:{s:7:"include";s:6:"region";}s:4:"POST";a:0:{}s:6:"COOKIE";a:0:{}s:5:"FILES";a:0:{}s:7:"SESSION";a:0:{}}";s:6:"router";s:3141:"a:3:{s:8:"messages";a:15:{i:6;a:6:{i:0;a:3:{s:4:"rule";s:3:"gii";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252814;i:4;a:0:{}i:5;i:4739656;}i:7;a:6:{i:0;a:3:{s:4:"rule";s:12:"gii/<id:\w+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252821;i:4;a:0:{}i:5;i:4740408;}i:8;a:6:{i:0;a:3:{s:4:"rule";s:41:"gii/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252831;i:4;a:0:{}i:5;i:4741160;}i:9;a:6:{i:0;a:3:{s:4:"rule";s:5:"debug";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252835;i:4;a:0:{}i:5;i:4742232;}i:10;a:6:{i:0;a:3:{s:4:"rule";s:43:"debug/<controller:[\w\-]+>/<action:[\w\-]+>";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252838;i:4;a:0:{}i:5;i:4742984;}i:11;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252842;i:4;a:0:{}i:5;i:4743736;}i:12;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:0;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252845;i:4;a:0:{}i:5;i:4744488;}i:13;a:6:{i:0;a:3:{s:4:"rule";s:26:"OPTIONS v1/region/<action>";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252854;i:4;a:0:{}i:5;i:4745672;}i:14;a:6:{i:0;a:3:{s:4:"rule";s:17:"OPTIONS v1/region";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252859;i:4;a:0:{}i:5;i:4746472;}i:15;a:6:{i:0;a:3:{s:4:"rule";s:35:"OPTIONS v1/region/<id:\d+>/district";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252864;i:4;a:0:{}i:5;i:4747288;}i:16;a:6:{i:0;a:3:{s:4:"rule";s:31:"GET v1/region/<id:\d+>/district";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252869;i:4;a:0:{}i:5;i:4748096;}i:17;a:6:{i:0;a:3:{s:4:"rule";s:26:"OPTIONS v1/region/district";s:5:"match";b:0;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252874;i:4;a:0:{}i:5;i:4749544;}i:18;a:6:{i:0;s:48:"Request parsed with URL rule: v1/region/district";i:1;i:8;i:2;s:29:"yii\web\UrlRule::parseRequest";i:3;d:1666534859.25288;i:4;a:0:{}i:5;i:4750832;}i:19;a:6:{i:0;a:3:{s:4:"rule";s:22:"GET v1/region/district";s:5:"match";b:1;s:6:"parent";s:16:"yii\rest\UrlRule";}i:1;i:8;i:2;s:30:"yii\rest\UrlRule::parseRequest";i:3;d:1666534859.252884;i:4;a:0:{}i:5;i:4751176;}i:20;a:6:{i:0;a:3:{s:4:"rule";s:16:"yii\rest\UrlRule";s:5:"match";b:1;s:6:"parent";N;}i:1;i:8;i:2;s:32:"yii\web\UrlManager::parseRequest";i:3;d:1666534859.252886;i:4;a:0:{}i:5;i:4751552;}}s:5:"route";s:23:"v1/region/district-list";s:6:"action";s:65:"api\modules\v1\controllers\RegionController::actionDistrictList()";}";s:3:"log";s:18902:"a:1:{s:8:"messages";a:38:{i:0;a:6:{i:0;s:33:"Bootstrap with yii\log\Dispatcher";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1666534859.243777;i:4;a:0:{}i:5;i:3266720;}i:1;a:6:{i:0;s:21:"Loading module: debug";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1666534859.243787;i:4;a:0:{}i:5;i:3267896;}i:2;a:6:{i:0;s:44:"Bootstrap with yii\debug\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1666534859.249121;i:4;a:0:{}i:5;i:4323224;}i:3;a:6:{i:0;s:86:"Unable to use cache for URL manager: Failed to instantiate component or class "cache".";i:1;i:2;i:2;s:11:"application";i:3;d:1666534859.250545;i:4;a:0:{}i:5;i:4487016;}i:4;a:6:{i:0;s:19:"Loading module: gii";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1666534859.251795;i:4;a:0:{}i:5;i:4627464;}i:5;a:6:{i:0;s:42:"Bootstrap with yii\gii\Module::bootstrap()";i:1;i:8;i:2;s:31:"yii\base\Application::bootstrap";i:3;d:1666534859.252047;i:4;a:0:{}i:5;i:4652496;}i:21;a:6:{i:0;s:42:"Route requested: 'v1/region/district-list'";i:1;i:8;i:2;s:34:"yii\web\Application::handleRequest";i:3;d:1666534859.252891;i:4;a:0:{}i:5;i:4751256;}i:22;a:6:{i:0;s:18:"Loading module: v1";i:1;i:8;i:2;s:26:"yii\base\Module::getModule";i:3;d:1666534859.252896;i:4;a:0:{}i:5;i:4752888;}i:23;a:6:{i:0;s:37:"Route to run: v1/region/district-list";i:1;i:8;i:2;s:30:"yii\base\Controller::runAction";i:3;d:1666534859.254169;i:4;a:0:{}i:5;i:4953688;}i:24;a:6:{i:0;s:39:"Rate limit skipped: user not logged in.";i:1;i:4;i:2;s:37:"yii\filters\RateLimiter::beforeAction";i:3;d:1666534859.255727;i:4;a:0:{}i:5;i:5107200;}i:25;a:6:{i:0;s:81:"Running action: api\modules\v1\controllers\RegionController::actionDistrictList()";i:1;i:8;i:2;s:36:"yii\base\InlineAction::runWithParams";i:3;d:1666534859.255752;i:4;a:0:{}i:5;i:5106048;}i:26;a:6:{i:0;s:38:"SELECT COUNT(*) FROM "district_rating"";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.26726;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6808120;}i:27;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=localhost;dbname=university";i:1;i:4;i:2;s:23:"yii\db\Connection::open";i:3;d:1666534859.26729;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6810560;}i:32;a:6:{i:0;s:2801:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'district_rating'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.315769;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6865088;}i:35;a:6:{i:0;s:883:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='district_rating'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.330163;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6906880;}i:38;a:6:{i:0;s:63:"SELECT * FROM "district_rating" ORDER BY "rating" DESC LIMIT 20";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.333774;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6997144;}i:41;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.335512;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7094328;}i:44;a:6:{i:0;s:2792:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'region'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.336894;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7104360;}i:47;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='region'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.341593;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7110904;}i:50;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344574;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7117640;}i:53;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345081;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7126064;}i:56;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345486;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7134496;}i:59;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345856;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7142904;}i:62;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346208;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7151312;}i:65;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346622;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7170984;}i:68;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346986;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7179392;}i:71;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347937;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7187800;}i:74;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.34839;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7196208;}i:77;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348805;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7204616;}i:80;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.34921;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7213024;}i:83;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349614;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7221448;}i:86;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350006;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7229880;}i:89;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=6";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350384;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7238288;}i:92;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350729;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7246696;}i:95;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351027;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7255104;}i:98;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351409;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7263512;}i:101;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=9";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351753;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7271920;}i:104;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:4;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.352072;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7280328;}}}";s:9:"profiling";s:34334:"a:3:{s:6:"memory";i:7668032;s:4:"time";d:0.12583208084106445;s:8:"messages";a:54:{i:28;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=localhost;dbname=university";i:1;i:80;i:2;s:23:"yii\db\Connection::open";i:3;d:1666534859.2673;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6811688;}i:29;a:6:{i:0;s:61:"Opening DB connection: pgsql:host=localhost;dbname=university";i:1;i:96;i:2;s:23:"yii\db\Connection::open";i:3;d:1666534859.3134;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6813600;}i:30;a:6:{i:0;s:38:"SELECT COUNT(*) FROM "district_rating"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.313429;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6814104;}i:31;a:6:{i:0;s:38:"SELECT COUNT(*) FROM "district_rating"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.314986;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6815296;}i:33;a:6:{i:0;s:2801:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'district_rating'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.315809;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6877072;}i:34;a:6:{i:0;s:2801:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'district_rating'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.329432;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6886336;}i:36;a:6:{i:0;s:883:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='district_rating'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.330196;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6911184;}i:37;a:6:{i:0;s:883:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='district_rating'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.332845;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6912752;}i:39;a:6:{i:0;s:63:"SELECT * FROM "district_rating" ORDER BY "rating" DESC LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.33379;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6998856;}i:40;a:6:{i:0;s:63:"SELECT * FROM "district_rating" ORDER BY "rating" DESC LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.334235;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:7010752;}i:42;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.335532;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7096768;}i:43;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.336717;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7098968;}i:45;a:6:{i:0;s:2792:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'region'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.336927;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7115064;}i:46;a:6:{i:0;s:2792:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'region'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.341286;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7122760;}i:48;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='region'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.341628;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7115208;}i:49;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='region'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344175;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7116776;}i:51;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344605;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7120080;}i:52;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344851;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7122280;}i:54;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345102;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7128504;}i:55;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345294;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7130760;}i:57;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345503;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7136936;}i:58;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345676;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7139136;}i:60;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345874;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7145344;}i:61;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346039;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7147544;}i:63;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346225;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7153752;}i:64;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346426;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7155952;}i:66;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.34664;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7173424;}i:67;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346804;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7175624;}i:69;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347006;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7181832;}i:70;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347693;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7184032;}i:72;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347958;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7190240;}i:73;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348156;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7192440;}i:75;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348413;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7198648;}i:76;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348605;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7200848;}i:78;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348826;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7207056;}i:79;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349025;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7209256;}i:81;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349229;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7215464;}i:82;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349412;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7217664;}i:84;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349633;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7223888;}i:85;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349822;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7226144;}i:87;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350025;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7232320;}i:88;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350211;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7234520;}i:90;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=6";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350401;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7240728;}i:91;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=6";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350559;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7242928;}i:93;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350744;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7249136;}i:94;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350873;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7251336;}i:96;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351049;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7257544;}i:97;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351206;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7259744;}i:99;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351426;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7265952;}i:100;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351583;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7268152;}i:102;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35177;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7274360;}i:103;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35192;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7276560;}i:105;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.352088;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7282768;}i:106;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35223;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7284968;}}}";s:2:"db";s:33498:"a:1:{s:8:"messages";a:52:{i:30;a:6:{i:0;s:38:"SELECT COUNT(*) FROM "district_rating"";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.313429;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6814104;}i:31;a:6:{i:0;s:38:"SELECT COUNT(*) FROM "district_rating"";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.314986;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6815296;}i:33;a:6:{i:0;s:2801:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'district_rating'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.315809;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6877072;}i:34;a:6:{i:0;s:2801:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'district_rating'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.329432;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6886336;}i:36;a:6:{i:0;s:883:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='district_rating'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.330196;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6911184;}i:37;a:6:{i:0;s:883:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='district_rating'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.332845;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6912752;}i:39;a:6:{i:0;s:63:"SELECT * FROM "district_rating" ORDER BY "rating" DESC LIMIT 20";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.33379;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:6998856;}i:40;a:6:{i:0;s:63:"SELECT * FROM "district_rating" ORDER BY "rating" DESC LIMIT 20";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.334235;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:50;s:8:"function";s:9:"getModels";s:5:"class";s:25:"yii\data\BaseDataProvider";s:4:"type";s:2:"->";}}i:5;i:7010752;}i:42;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.335532;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7096768;}i:43;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.336717;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7098968;}i:45;a:6:{i:0;s:2792:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'region'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.336927;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7115064;}i:46;a:6:{i:0;s:2792:"SELECT
+    d.nspname AS table_schema,
+    c.relname AS table_name,
+    a.attname AS column_name,
+    COALESCE(td.typname, tb.typname, t.typname) AS data_type,
+    COALESCE(td.typtype, tb.typtype, t.typtype) AS type_type,
+    (SELECT nspname FROM pg_namespace WHERE oid = COALESCE(td.typnamespace, tb.typnamespace, t.typnamespace)) AS type_scheme,
+    a.attlen AS character_maximum_length,
+    pg_catalog.col_description(c.oid, a.attnum) AS column_comment,
+    a.atttypmod AS modifier,
+    a.attnotnull = false AS is_nullable,
+    CAST(pg_get_expr(ad.adbin, ad.adrelid) AS varchar) AS column_default,
+    coalesce(pg_get_expr(ad.adbin, ad.adrelid) ~ 'nextval',false)  AS is_autoinc,
+    pg_get_serial_sequence(quote_ident(d.nspname) || '.' || quote_ident(c.relname), a.attname) AS sequence_name,
+    CASE WHEN COALESCE(td.typtype, tb.typtype, t.typtype) = 'e'::char
+        THEN array_to_string((SELECT array_agg(enumlabel) FROM pg_enum WHERE enumtypid = COALESCE(td.oid, tb.oid, a.atttypid))::varchar[], ',')
+        ELSE NULL
+    END AS enum_values,
+    CASE atttypid
+         WHEN 21 /*int2*/ THEN 16
+         WHEN 23 /*int4*/ THEN 32
+         WHEN 20 /*int8*/ THEN 64
+         WHEN 1700 /*numeric*/ THEN
+              CASE WHEN atttypmod = -1
+               THEN null
+               ELSE ((atttypmod - 4) >> 16) & 65535
+               END
+         WHEN 700 /*float4*/ THEN 24 /*FLT_MANT_DIG*/
+         WHEN 701 /*float8*/ THEN 53 /*DBL_MANT_DIG*/
+         ELSE null
+      END   AS numeric_precision,
+      CASE
+        WHEN atttypid IN (21, 23, 20) THEN 0
+        WHEN atttypid IN (1700) THEN
+        CASE
+            WHEN atttypmod = -1 THEN null
+            ELSE (atttypmod - 4) & 65535
+        END
+           ELSE null
+      END AS numeric_scale,
+    CAST(
+             information_schema._pg_char_max_length(information_schema._pg_truetypid(a, t), information_schema._pg_truetypmod(a, t))
+             AS numeric
+    ) AS size,
+    a.attnum = any (ct.conkey) as is_pkey,
+    COALESCE(NULLIF(a.attndims, 0), NULLIF(t.typndims, 0), (t.typcategory='A')::int) AS dimension
+FROM
+    pg_class c
+    LEFT JOIN pg_attribute a ON a.attrelid = c.oid
+    LEFT JOIN pg_attrdef ad ON a.attrelid = ad.adrelid AND a.attnum = ad.adnum
+    LEFT JOIN pg_type t ON a.atttypid = t.oid
+    LEFT JOIN pg_type tb ON (a.attndims > 0 OR t.typcategory='A') AND t.typelem > 0 AND t.typelem = tb.oid OR t.typbasetype > 0 AND t.typbasetype = tb.oid
+    LEFT JOIN pg_type td ON t.typndims > 0 AND t.typbasetype > 0 AND tb.typelem = td.oid
+    LEFT JOIN pg_namespace d ON d.oid = c.relnamespace
+    LEFT JOIN pg_constraint ct ON ct.conrelid = c.oid AND ct.contype = 'p'
+WHERE
+    a.attnum > 0 AND t.typname != '' AND NOT a.attisdropped
+    AND c.relname = 'region'
+    AND d.nspname = 'public'
+ORDER BY
+    a.attnum;";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.341286;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7122760;}i:48;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='region'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.341628;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7115208;}i:49;a:6:{i:0;s:874:"select
+    ct.conname as constraint_name,
+    a.attname as column_name,
+    fc.relname as foreign_table_name,
+    fns.nspname as foreign_table_schema,
+    fa.attname as foreign_column_name
+from
+    (SELECT ct.conname, ct.conrelid, ct.confrelid, ct.conkey, ct.contype, ct.confkey, generate_subscripts(ct.conkey, 1) AS s
+       FROM pg_constraint ct
+    ) AS ct
+    inner join pg_class c on c.oid=ct.conrelid
+    inner join pg_namespace ns on c.relnamespace=ns.oid
+    inner join pg_attribute a on a.attrelid=ct.conrelid and a.attnum = ct.conkey[ct.s]
+    left join pg_class fc on fc.oid=ct.confrelid
+    left join pg_namespace fns on fc.relnamespace=fns.oid
+    left join pg_attribute fa on fa.attrelid=ct.confrelid and fa.attnum = ct.confkey[ct.s]
+where
+    ct.contype='f'
+    and c.relname='region'
+    and ns.nspname='public'
+order by
+    fns.nspname, fc.relname, a.attnum";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344175;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7116776;}i:51;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344605;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7120080;}i:52;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.344851;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7122280;}i:54;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345102;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7128504;}i:55;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345294;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7130760;}i:57;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345503;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7136936;}i:58;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345676;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7139136;}i:60;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.345874;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7145344;}i:61;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346039;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7147544;}i:63;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346225;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7153752;}i:64;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346426;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7155952;}i:66;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.34664;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7173424;}i:67;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.346804;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7175624;}i:69;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347006;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7181832;}i:70;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347693;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7184032;}i:72;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.347958;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7190240;}i:73;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348156;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7192440;}i:75;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348413;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7198648;}i:76;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=3";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348605;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7200848;}i:78;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.348826;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7207056;}i:79;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=5";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349025;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7209256;}i:81;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349229;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7215464;}i:82;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=1";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349412;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7217664;}i:84;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349633;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7223888;}i:85;a:6:{i:0;s:36:"SELECT * FROM "region" WHERE "id"=11";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.349822;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7226144;}i:87;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350025;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7232320;}i:88;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350211;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7234520;}i:90;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=6";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350401;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7240728;}i:91;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=6";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350559;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7242928;}i:93;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350744;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7249136;}i:94;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.350873;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7251336;}i:96;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351049;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7257544;}i:97;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351206;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7259744;}i:99;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351426;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7265952;}i:100;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=4";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.351583;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7268152;}i:102;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=9";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35177;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7274360;}i:103;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=9";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35192;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7276560;}i:105;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:80;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.352088;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7282768;}i:106;a:6:{i:0;s:35:"SELECT * FROM "region" WHERE "id"=2";i:1;i:96;i:2;s:21:"yii\db\Command::query";i:3;d:1666534859.35223;i:4;a:1:{i:0;a:5:{s:4:"file";s:75:"D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php";s:4:"line";i:52;s:8:"function";s:15:"serializeModels";s:5:"class";s:19:"yii\rest\Serializer";s:4:"type";s:2:"->";}}i:5;i:7284968;}}}";s:5:"event";s:19878:"a:114:{i:0;a:5:{s:4:"time";d:1666534859.252586;s:4:"name";s:13:"beforeRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:1;a:5:{s:4:"time";d:1666534859.254244;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:2;a:5:{s:4:"time";d:1666534859.255102;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"api\modules\v1\Module";}i:3;a:5:{s:4:"time";d:1666534859.255742;s:4:"name";s:12:"beforeAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:43:"api\modules\v1\controllers\RegionController";}i:4;a:5:{s:4:"time";d:1666534859.261623;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:5;a:5:{s:4:"time";d:1666534859.262096;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:43:"api\modules\v1\controllers\RegionController";}i:6;a:5:{s:4:"time";d:1666534859.313384;s:4:"name";s:9:"afterOpen";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:17:"yii\db\Connection";}i:7;a:5:{s:4:"time";d:1666534859.315549;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:8;a:5:{s:4:"time";d:1666534859.33438;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:9;a:5:{s:4:"time";d:1666534859.334409;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:10;a:5:{s:4:"time";d:1666534859.334418;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:11;a:5:{s:4:"time";d:1666534859.334425;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:12;a:5:{s:4:"time";d:1666534859.334431;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:13;a:5:{s:4:"time";d:1666534859.334445;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:14;a:5:{s:4:"time";d:1666534859.334451;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:15;a:5:{s:4:"time";d:1666534859.334457;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:16;a:5:{s:4:"time";d:1666534859.334463;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:17;a:5:{s:4:"time";d:1666534859.334469;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:18;a:5:{s:4:"time";d:1666534859.334475;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:19;a:5:{s:4:"time";d:1666534859.33448;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:20;a:5:{s:4:"time";d:1666534859.334486;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:21;a:5:{s:4:"time";d:1666534859.334491;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:22;a:5:{s:4:"time";d:1666534859.334497;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:23;a:5:{s:4:"time";d:1666534859.334503;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:24;a:5:{s:4:"time";d:1666534859.334509;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:25;a:5:{s:4:"time";d:1666534859.334514;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:26;a:5:{s:4:"time";d:1666534859.33452;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:27;a:5:{s:4:"time";d:1666534859.334525;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:28;a:5:{s:4:"time";d:1666534859.334534;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:29;a:5:{s:4:"time";d:1666534859.334536;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:30;a:5:{s:4:"time";d:1666534859.334539;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:31;a:5:{s:4:"time";d:1666534859.334541;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:32;a:5:{s:4:"time";d:1666534859.334544;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:33;a:5:{s:4:"time";d:1666534859.334546;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:34;a:5:{s:4:"time";d:1666534859.334548;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:35;a:5:{s:4:"time";d:1666534859.334551;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:36;a:5:{s:4:"time";d:1666534859.334553;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:37;a:5:{s:4:"time";d:1666534859.334556;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:38;a:5:{s:4:"time";d:1666534859.334558;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:39;a:5:{s:4:"time";d:1666534859.33456;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:40;a:5:{s:4:"time";d:1666534859.334563;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:41;a:5:{s:4:"time";d:1666534859.334565;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:42;a:5:{s:4:"time";d:1666534859.334568;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:43;a:5:{s:4:"time";d:1666534859.33457;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:44;a:5:{s:4:"time";d:1666534859.334572;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:45;a:5:{s:4:"time";d:1666534859.334575;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:46;a:5:{s:4:"time";d:1666534859.334577;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:47;a:5:{s:4:"time";d:1666534859.33458;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:29:"backend\models\DistrictRating";}i:48;a:5:{s:4:"time";d:1666534859.334769;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:49;a:5:{s:4:"time";d:1666534859.336847;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:50;a:5:{s:4:"time";d:1666534859.344394;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:51;a:5:{s:4:"time";d:1666534859.344471;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:52;a:5:{s:4:"time";d:1666534859.344928;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:53;a:5:{s:4:"time";d:1666534859.344951;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:54;a:5:{s:4:"time";d:1666534859.345007;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:55;a:5:{s:4:"time";d:1666534859.345374;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:56;a:5:{s:4:"time";d:1666534859.345393;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:57;a:5:{s:4:"time";d:1666534859.345433;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:58;a:5:{s:4:"time";d:1666534859.345743;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:59;a:5:{s:4:"time";d:1666534859.345768;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:60;a:5:{s:4:"time";d:1666534859.345807;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:61;a:5:{s:4:"time";d:1666534859.3461;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:62;a:5:{s:4:"time";d:1666534859.346118;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:63;a:5:{s:4:"time";d:1666534859.346162;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:64;a:5:{s:4:"time";d:1666534859.346497;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:65;a:5:{s:4:"time";d:1666534859.346518;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:66;a:5:{s:4:"time";d:1666534859.346567;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:67;a:5:{s:4:"time";d:1666534859.346871;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:68;a:5:{s:4:"time";d:1666534859.34689;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:69;a:5:{s:4:"time";d:1666534859.346928;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:70;a:5:{s:4:"time";d:1666534859.347794;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:71;a:5:{s:4:"time";d:1666534859.347817;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:72;a:5:{s:4:"time";d:1666534859.347867;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:73;a:5:{s:4:"time";d:1666534859.348255;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:74;a:5:{s:4:"time";d:1666534859.348278;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:75;a:5:{s:4:"time";d:1666534859.348326;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:76;a:5:{s:4:"time";d:1666534859.348679;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:77;a:5:{s:4:"time";d:1666534859.3487;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:78;a:5:{s:4:"time";d:1666534859.348744;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:79;a:5:{s:4:"time";d:1666534859.349093;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:80;a:5:{s:4:"time";d:1666534859.349114;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:81;a:5:{s:4:"time";d:1666534859.349154;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:82;a:5:{s:4:"time";d:1666534859.349496;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:83;a:5:{s:4:"time";d:1666534859.349516;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:84;a:5:{s:4:"time";d:1666534859.349559;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:85;a:5:{s:4:"time";d:1666534859.349888;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:86;a:5:{s:4:"time";d:1666534859.349913;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:87;a:5:{s:4:"time";d:1666534859.349953;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:88;a:5:{s:4:"time";d:1666534859.350278;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:89;a:5:{s:4:"time";d:1666534859.350296;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:90;a:5:{s:4:"time";d:1666534859.350334;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:91;a:5:{s:4:"time";d:1666534859.350621;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:92;a:5:{s:4:"time";d:1666534859.35064;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:93;a:5:{s:4:"time";d:1666534859.350679;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:94;a:5:{s:4:"time";d:1666534859.350924;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:95;a:5:{s:4:"time";d:1666534859.350941;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:96;a:5:{s:4:"time";d:1666534859.350978;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:97;a:5:{s:4:"time";d:1666534859.351271;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:98;a:5:{s:4:"time";d:1666534859.351292;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:99;a:5:{s:4:"time";d:1666534859.351344;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:100;a:5:{s:4:"time";d:1666534859.351639;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:101;a:5:{s:4:"time";d:1666534859.351657;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:102;a:5:{s:4:"time";d:1666534859.351696;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:103;a:5:{s:4:"time";d:1666534859.351972;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:104;a:5:{s:4:"time";d:1666534859.351989;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:105;a:5:{s:4:"time";d:1666534859.352026;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:18:"yii\db\ActiveQuery";}i:106;a:5:{s:4:"time";d:1666534859.352284;s:4:"name";s:4:"init";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:107;a:5:{s:4:"time";d:1666534859.3523;s:4:"name";s:9:"afterFind";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"backend\models\Region";}i:108;a:5:{s:4:"time";d:1666534859.352386;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:21:"api\modules\v1\Module";}i:109;a:5:{s:4:"time";d:1666534859.352394;s:4:"name";s:11:"afterAction";s:5:"class";s:20:"yii\base\ActionEvent";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:110;a:5:{s:4:"time";d:1666534859.352406;s:4:"name";s:12:"afterRequest";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:19:"yii\web\Application";}i:111;a:5:{s:4:"time";d:1666534859.352414;s:4:"name";s:10:"beforeSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:112;a:5:{s:4:"time";d:1666534859.356506;s:4:"name";s:12:"afterPrepare";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}i:113;a:5:{s:4:"time";d:1666534859.356575;s:4:"name";s:9:"afterSend";s:5:"class";s:14:"yii\base\Event";s:8:"isStatic";s:1:"0";s:11:"senderClass";s:16:"yii\web\Response";}}";s:6:"assets";s:6:"a:0:{}";s:4:"mail";s:6:"a:0:{}";s:8:"timeline";s:91:"a:3:{s:5:"start";d:1666534859.233479;s:3:"end";d:1666534859.359685;s:6:"memory";i:7668032;}";s:4:"user";s:2:"N;";s:4:"dump";s:6:"a:0:{}";s:7:"summary";a:12:{s:3:"tag";s:13:"63554dcb3cec1";s:3:"url";s:54:"http://192.168.0.109/v1/region/district?include=region";s:4:"ajax";i:0;s:6:"method";s:3:"GET";s:2:"ip";s:9:"127.0.0.1";s:4:"time";d:1666534859.219062;s:10:"statusCode";i:200;s:8:"sqlCount";i:26;s:9:"mailCount";i:0;s:9:"mailFiles";a:0:{}s:10:"peakMemory";i:7668032;s:14:"processingTime";d:0.12583208084106445;}s:10:"exceptions";a:0:{}}

@@ -32,7 +32,7 @@ AppAsset::register($this);
             <div class="col-md-2 col-sm-3 col-xs-6 sb1-1">
                 <a href="#" class="btn-close-menu"><i class="fa fa-times" aria-hidden="true"></i></a>
                 <a href="#" class="atab-menu"><i class="fa fa-bars tab-menu" aria-hidden="true"></i></a>
-                <a href="/" class="logo"><h3>Bahodir BMI.uz</h3>
+                <a href="/" class="logo"><h3>TDI.uz</h3>
                 </a>
             </div>
             <!--== SEARCH ==-->
@@ -67,7 +67,8 @@ AppAsset::register($this);
                                                                                    aria-hidden="true"></i>Admin Setting</a>
                     </li>
                     <li class="divider"></li>
-                    <li><a href="<?=\yii\helpers\Url::to(['site/logout'])?>" class="ho-dr-con-last waves-effect"><i class="fa fa-sign-in" aria-hidden="true"></i>
+                    <li><a href="<?= \yii\helpers\Url::to(['site/logout']) ?>" class="ho-dr-con-last waves-effect"><i
+                                    class="fa fa-sign-in" aria-hidden="true"></i>
                             Logout</a>
                     </li>
                 </ul>
@@ -90,99 +91,25 @@ AppAsset::register($this);
                 <!--== LEFT MENU ==-->
                 <div class="sb2-13">
                     <ul class="collapsible" data-collapsible="accordion">
-                        <li><a href="<?= \yii\helpers\Url::to(['/']) ?>" class="menu-active"><i class="fa fa-bar-chart"
-                                                                                                aria-hidden="true"></i>
-                                Dashboard</a>
-                        </li>
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-book"
-                                                                                       aria-hidden="true"></i> All
-                                Courses</a>
+                                                                                       aria-hidden="true"></i>Universitetlar
+                            </a>
                             <div class="collapsible-body left-sub-menu">
                                 <ul>
-                                    <li><a href="<?= \yii\helpers\Url::to(['course/index']) ?>">All Course</a>
-                                    </li>
-                                    <li><a href="<?= \yii\helpers\Url::to(['course/create']) ?>">Add New Course</a>
+                                    <li><a href="<?= \yii\helpers\Url::to(['university/index']) ?>">Universitetlar
+                                            reytingi</a>
                                     </li>
                                 </ul>
                             </div>
                         </li>
                         <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-users"
-                                                                                       aria-hidden="true"></i>Users</a>
+                                                                                       aria-hidden="true"></i>Viloyatlar</a>
                             <div class="collapsible-body left-sub-menu">
                                 <ul>
-                                    <li><a href="<?= \yii\helpers\Url::to(['employee/index']) ?>">All User</a>
+                                    <li><a href="<?= \yii\helpers\Url::to(['region/index']) ?>">Barcha viloyatlar</a>
                                     </li>
-                                    <li><a href="<?= \yii\helpers\Url::to(['employee/create']) ?>">Add New user</a>
+                                    <li><a href="<?= \yii\helpers\Url::to(['region/district']) ?>">Barcha tumanlar</a>
                                     </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user"
-                                                                                       aria-hidden="true"></i>Students</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="<?= \yii\helpers\Url::to(['/student/index']) ?>">All Students</a>
-                                    </li>
-                                    <li><a href="<?= \yii\helpers\Url::to(['/student/create']) ?>">Add New Student</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-user"
-                                                                                       aria-hidden="true"></i>Group</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="<?= \yii\helpers\Url::to(['/group/index']) ?>">All Group</a>
-                                    </li>
-                                    <li><a href="<?= \yii\helpers\Url::to(['/group/create']) ?>">Create new group</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-
-                        <li><a href="javascript:void(0)" class="collapsible-header">
-                                <i class="fa fa-calendar" aria-hidden="true"></i>Events</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="admin-event-all.html">All Events</a>
-                                    </li>
-                                    <li><a href="admin-event-add.html">Create New Events</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="javascript:void(0)" class="collapsible-header">
-                                <i class="fa fa-bullhorn" aria-hidden="true"></i>Seminar</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="admin-seminar-all.html">All Seminar</a>
-                                    </li>
-                                    <li><a href="admin-seminar-add.html">Create New Seminar</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="javascript:void(0)" class="collapsible-header"><i class="fa fa-graduation-cap"
-                                                                                       aria-hidden="true"></i> Job
-                                Vacants</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="admin-job-all.html">All Jobs</a>
-                                    </li>
-                                    <li><a href="admin-job-add.html">Create New Job</a>
-                                    </li>
-                                </ul>
-                            </div>
-                        </li>
-                        <li><a href="javascript:void(0)" class="collapsible-header">
-                                <i class="fa fa-pencil" aria-hidden="true"></i> Exam time
-                                table</a>
-                            <div class="collapsible-body left-sub-menu">
-                                <ul>
-                                    <li><a href="admin-exam-all.html">All Exams</a></li>
-                                    <li><a href="admin-exam-add.html">Add New Exam</a></li>
-                                    <li><a href="admin-exam-group-all.html">All Groups</a></li>
-                                    <li><a href="admin-exam-group-add.html">Create New Groups</a></li>
                                 </ul>
                             </div>
                         </li>

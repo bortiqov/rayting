@@ -4,6 +4,7 @@ namespace api\modules\v1\controllers;
 
 use backend\models\DistrictRating;
 use backend\models\Region;
+use common\components\ApiController;
 use common\components\CrudController;
 use common\models\Company;
 use common\models\search\CompanySearch;
@@ -11,16 +12,23 @@ use common\models\University;
 use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
+use yii\rest\Serializer;
 
-class RegionController extends Controller
+class RegionController extends ApiController
 {
+
+    public $modelClass = Region::class;
+    public $searchModel = Region::class;
 
     public function actions()
     {
         return [
-            'options' => OptionsAction::class
+            'options' => [
+                'class' => OptionsAction::class,
+            ]
         ];
     }
+
     public function actionIndex()
     {
         $query = Region::find();
@@ -28,7 +36,6 @@ class RegionController extends Controller
             'query' => $query
         ]);
 
-        $dataProvider->pagination->pageSize = 100;
         return $dataProvider;
     }
 
@@ -47,20 +54,24 @@ class RegionController extends Controller
 
     }
 
-    public function actionSchool($id)
+
+    public function actionDistrictList()
     {
-        $query = DistrictRating::find()->andWhere(['region_id' => $id]);
+        $query = DistrictRating::find();
+        $query->orderBy(['rating' => SORT_DESC]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
 
-//        var_dump(Yii::$app->request->post(),$_FILES);
-//        die();
-        $dataProvider->pagination->pageSize = 100;
+        $requestParams = \Yii::$app->request->queryParams;
+        if ($requestParams['region_id']) {
+            $query->andWhere(['region_id' => $requestParams['region_id']]);
+        }
+
 
         return $dataProvider;
-
     }
+
 
 
 }

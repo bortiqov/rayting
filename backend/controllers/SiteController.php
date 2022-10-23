@@ -5,7 +5,9 @@ namespace backend\controllers;
 use common\models\LoginForm;
 use common\models\search\CourseSearch;
 use common\models\search\StudentSearch;
+use common\models\University;
 use Yii;
+use yii\data\ActiveDataProvider;
 use yii\filters\VerbFilter;
 use yii\filters\AccessControl;
 use yii\web\Controller;
@@ -64,15 +66,13 @@ class SiteController extends Controller
      */
     public function actionIndex()
     {
-        $searchModel = new StudentSearch();
-        $dataProvider = $searchModel->search($this->request->queryParams);
-
-        $courseSearch = new CourseSearch();
-        $courseDataProvider = $courseSearch->search(Yii::$app->request->queryParams);
+        $query = University::find()->andWhere(['year' => 2021]);
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query
+        ]);
 
         return $this->render('index', [
-            'dataProvider' => $dataProvider,
-                'courseDataProvider' => $courseDataProvider,
+            'courseDataProvider' => $dataProvider,
         ]);
     }
 

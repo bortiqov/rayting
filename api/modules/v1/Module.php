@@ -106,6 +106,10 @@ class Module extends \yii\base\Module
 
                 'OPTIONS <id:\d+>/district' => 'options',
                 'GET <id:\d+>/district' => 'district',
+
+                'OPTIONS district' => 'options',
+                'GET district' => 'district-list',
+
                 'POST' => 'create',
                 'PUT <id:\d+>' => 'update',
                 'DELETE <id:\d+>' => 'delete',

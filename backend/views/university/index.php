@@ -35,8 +35,8 @@ $this->params['breadcrumbs'][] = $this->title;
             <div class="col-md-12">
                 <div class="box-inn-sp">
                     <div class="inn-title">
-                        <h4>Course Details</h4>
-                        <p>Barcha kurlar haqida malumot</p>
+                        <h4>Universitetlar</h4>
+                        <p>So'ngi yilning reytingi</p>
                     </div>
 
                     <div class="tab-inn">
@@ -53,6 +53,7 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'dataProvider' => $dataProvider,
                             ]); ?>
                         </div>
+                        <?php ActiveForm::end() ?>
                     </div>
                 </div>
             </div>

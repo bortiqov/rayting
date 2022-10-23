@@ -47,4 +47,17 @@ class DistrictRating extends \yii\db\ActiveRecord
             'rayting' => 'Rayting',
         ];
     }
+
+
+    public function getRegion()
+    {
+        return $this->hasOne(Region::class, ['id' => 'region_id']);
+    }
+
+    public function extraFields()
+    {
+        return [
+            'region'
+        ];
+    }
 }
