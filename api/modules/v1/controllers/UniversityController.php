@@ -13,6 +13,7 @@ use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
 use yii\rest\Serializer;
+use yii\web\NotFoundHttpException;
 
 class UniversityController extends ApiController
 {
@@ -35,7 +36,7 @@ class UniversityController extends ApiController
 
     public function actionIndex($year)
     {
-        $requestParams = \Yii::$app->request->queryParams['filter'];
+        $requestParams = \Yii::$app->request->queryParams;
         $query = UniversityRating::find()->andWhere(['university_rating.year' => $year]);
         if ($requestParams['type']) {
             $query->leftJoin('university', 'university_rating.university_id=university.id')
@@ -52,9 +53,13 @@ class UniversityController extends ApiController
         return $dataProvider;
     }
 
-    public function action()
+    public function actionView($id)
     {
-
+        $model = University::findOne($id);
+        if (!$model) {
+            throw new NotFoundHttpException();
+        }
+        return $model;
     }
 
 }

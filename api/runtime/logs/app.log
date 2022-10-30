@@ -58408,3 +58408,618 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1667115297.6567
     'REQUEST_TIME' => 1667115297
 ]
+2022-10-30 10:38:24 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:38:24 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Отсутствуют обязательные параметры: year in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-30 10:38:24 [127.0.0.1][-][-][info][application] $_GET = [
+    'expand' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55973'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school?expand=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school'
+    'PHP_SELF' => '/index.php/v1/school'
+    'QUERY_STRING' => 'expand=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'fba7af2b-3628-4b4d-b12b-e9a9cf9ddb9f'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115504.5227
+    'REQUEST_TIME' => 1667115504
+]
+2022-10-30 10:38:32 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:38:32 [127.0.0.1][-][-][error][yii\web\HttpException:400] yii\web\BadRequestHttpException: Отсутствуют обязательные параметры: year in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Controller.php:198
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\InlineAction.php(51): yii\web\Controller->bindActionParams()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(178): yii\base\InlineAction->runWithParams()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#5 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#6 {main}
+2022-10-30 10:38:32 [127.0.0.1][-][-][info][application] $_GET = [
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55979'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school'
+    'PHP_SELF' => '/index.php/v1/school'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'cba45e32-a360-4db8-8083-9c630a7db701'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115512.2824
+    'REQUEST_TIME' => 1667115512
+]
+2022-10-30 10:38:37 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:38:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2020'
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55981'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2020?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2020'
+    'PHP_SELF' => '/index.php/v1/school/2020'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '0ba01ce4-b0e9-48b6-a59e-5d3126a2210d'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115517.3518
+    'REQUEST_TIME' => 1667115517
+]
+2022-10-30 10:38:56 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:38:56 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2020'
+    'include' => 'region'
+    'region_id' => '2'
+    'type' => '1'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55985'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2020?include=region&region_id=2&type=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2020'
+    'PHP_SELF' => '/index.php/v1/school/2020'
+    'QUERY_STRING' => 'include=region&region_id=2&type=1'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'edb22c9e-6bda-469e-b835-cb86483da96e'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115536.2891
+    'REQUEST_TIME' => 1667115536
+]
+2022-10-30 10:39:12 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:39:12 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2020'
+    'include' => 'region'
+    'region_id' => '2'
+    'type' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55990'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2020?include=region&region_id=2&type=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2020'
+    'PHP_SELF' => '/index.php/v1/school/2020'
+    'QUERY_STRING' => 'include=region&region_id=2&type=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '4e48949c-2cfa-45ff-9618-9bacc7b6a24d'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115552.2064
+    'REQUEST_TIME' => 1667115552
+]
+2022-10-30 10:40:09 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:40:09 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2020'
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56001'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2020?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2020'
+    'PHP_SELF' => '/index.php/v1/school/2020'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '494c99c9-7528-4eb7-ac24-a452d3841189'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115609.6737
+    'REQUEST_TIME' => 1667115609
+]
+2022-10-30 10:40:15 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:40:15 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2021'
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56004'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2021?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2021'
+    'PHP_SELF' => '/index.php/v1/school/2021'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'd28ec9f9-1466-4d81-bde6-bdd039de5a62'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115615.1946
+    'REQUEST_TIME' => 1667115615
+]
+2022-10-30 10:42:28 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:42:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2021'
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56023'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2021?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2021'
+    'PHP_SELF' => '/index.php/v1/school/2021'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '685d6037-179b-402d-b69c-22f7f0ad8a50'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115748.0002
+    'REQUEST_TIME' => 1667115748
+]
+2022-10-30 10:42:37 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:42:37 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2021'
+    'include' => 'region'
+    'region_id' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56025'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2021?include=region&region_id=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2021'
+    'PHP_SELF' => '/index.php/v1/school/2021'
+    'QUERY_STRING' => 'include=region&region_id=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '19a0f4b1-55b7-45a0-b215-367062bd4b25'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115757.9364
+    'REQUEST_TIME' => 1667115757
+]
+2022-10-30 10:42:41 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:42:41 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2021'
+    'include' => 'region'
+    'type' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '56028'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2021?include=region&type=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2021'
+    'PHP_SELF' => '/index.php/v1/school/2021'
+    'QUERY_STRING' => 'include=region&type=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '7a519f3c-958f-4e64-9755-909a1586384f'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115761.3916
+    'REQUEST_TIME' => 1667115761
+]
+2022-10-30 10:43:10 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:43:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2021'
+    'include' => 'region'
+    'type' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60072'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2021?include=region&type=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2021'
+    'PHP_SELF' => '/index.php/v1/school/2021'
+    'QUERY_STRING' => 'include=region&type=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'a673e6ab-1039-4cb3-8a0e-a7ccf3ccf5ef'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115790.1074
+    'REQUEST_TIME' => 1667115790
+]
+2022-10-30 10:43:35 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:43:35 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2020'
+    'include' => 'region'
+    'type' => '2'
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '60076'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/school/2020?include=region&type=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/school/2020'
+    'PHP_SELF' => '/index.php/v1/school/2020'
+    'QUERY_STRING' => 'include=region&type=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '3a77e10e-290e-4784-8caf-1d9499882609'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115815.9423
+    'REQUEST_TIME' => 1667115815
+]
+2022-10-30 10:46:25 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:46:25 [127.0.0.1][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '55460'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/liceum'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/liceum'
+    'PHP_SELF' => '/index.php/v1/liceum'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'f5a7f18d-ee0c-4afa-b4a2-111fea1c3a7b'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115985.3024
+    'REQUEST_TIME' => 1667115985
+]
+2022-10-30 10:48:28 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:48:28 [127.0.0.1][-][-][error][yii\web\HttpException:404] yii\base\InvalidRouteException: Unable to resolve the request: v1/university/view in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php:149
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#3 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#4 {main}
+
+Next yii\web\NotFoundHttpException: Page not found. in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php:115
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#1 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#2 {main}
+2022-10-30 10:48:28 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '20'
+    'include' => 'university'
+    'filter' => [
+        'type' => '3'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '54286'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/20/view?include=university&filter[type]=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/20/view'
+    'PHP_SELF' => '/index.php/v1/university/20/view'
+    'QUERY_STRING' => 'include=university&filter[type]=3'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'b2390d10-c65d-4426-8ce6-85b950056009'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667116108.8302
+    'REQUEST_TIME' => 1667116108
+]
+2022-10-30 10:49:16 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:49:16 [127.0.0.1][-][-][info][application] $_GET = [
+    'id' => '20'
+    'include' => 'university'
+    'filter' => [
+        'type' => '3'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '63925'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/20/view?include=university&filter[type]=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/20/view'
+    'PHP_SELF' => '/index.php/v1/university/20/view'
+    'QUERY_STRING' => 'include=university&filter[type]=3'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'e508ef62-e3cf-43e0-952c-469d1cce3300'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667116156.0217
+    'REQUEST_TIME' => 1667116156
+]

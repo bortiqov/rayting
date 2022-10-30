@@ -91,6 +91,40 @@ class Module extends \yii\base\Module
 
                 'OPTIONS <year:\d+>' => 'options',
                 'GET <year:\d+>' => 'index',
+
+                'OPTIONS <id:\d+>/view' => 'options',
+                'GET <id:\d+>/view' => 'view',
+
+                'POST' => 'create',
+                'PUT <id:\d+>' => 'update',
+                'DELETE <id:\d+>' => 'delete',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'controller' => 'v1/school',
+            'pluralize' => false,
+            'patterns' => [
+                'OPTIONS <action>' => 'options',
+                'OPTIONS ' => 'options',
+
+                'OPTIONS <year:\d+>' => 'options',
+                'GET <year:\d+>' => 'index',
+
+                'POST' => 'create',
+                'PUT <id:\d+>' => 'update',
+                'DELETE <id:\d+>' => 'delete',
+            ]
+        ],
+        [
+            'class' => 'yii\rest\UrlRule',
+            'controller' => 'v1/liceum',
+            'pluralize' => false,
+            'patterns' => [
+                'OPTIONS <action>' => 'options',
+                'OPTIONS ' => 'options',
+
+                'GET' => 'index',
                 'POST' => 'create',
                 'PUT <id:\d+>' => 'update',
                 'DELETE <id:\d+>' => 'delete',
