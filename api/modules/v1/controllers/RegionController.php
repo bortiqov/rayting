@@ -5,14 +5,8 @@ namespace api\modules\v1\controllers;
 use backend\models\DistrictRating;
 use backend\models\Region;
 use common\components\ApiController;
-use common\components\CrudController;
-use common\models\Company;
-use common\models\search\CompanySearch;
-use common\models\University;
 use yii\data\ActiveDataProvider;
-use yii\rest\Controller;
 use yii\rest\OptionsAction;
-use yii\rest\Serializer;
 
 class RegionController extends ApiController
 {
@@ -32,6 +26,8 @@ class RegionController extends ApiController
     public function actionIndex()
     {
         $query = Region::find();
+
+        $query->orderBy(['title' => SORT_ASC]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
@@ -71,7 +67,6 @@ class RegionController extends ApiController
 
         return $dataProvider;
     }
-
 
 
 }

@@ -56,4 +56,18 @@ class University extends \yii\db\ActiveRecord
             'expert' => 'Expert',
         ];
     }
+
+    public function getExpertName()
+    {
+        return $this->hasOne(Expert::class, ['id' => 'expert']);
+    }
+
+    public function fields()
+    {
+        return [
+            'id',
+            'title',
+            'expert',
+        ];
+    }
 }

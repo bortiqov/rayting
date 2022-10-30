@@ -2,10 +2,16 @@
 
 namespace backend\controllers;
 
+use backend\models\DistrictRating;
+use backend\models\Region;
 use common\models\Branch;
 use common\models\Companies;
+use common\models\Expert;
 use common\models\Kindergarten;
+use common\models\Liceum;
+use common\models\School;
 use common\models\University;
+use common\models\UniversityRating;
 use common\modules\excel\models\FromExcel;
 use common\modules\language\models\Language;
 use common\modules\tournament\models\Category;
@@ -51,7 +57,7 @@ class UniversityController extends Controller
 
     public function actionIndex()
     {
-        $query = University::find()->andWhere(['year' => 2021]);
+        $query = Liceum::find()->andWhere(['year' => 2021]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
@@ -75,29 +81,35 @@ class UniversityController extends Controller
 
             foreach ($rows as $index => $row) {
 
-                if ($index < 2) {
+                if ($index < 1) {
                     continue;
                 }
-                $title = $row[5];
-                $prof_teach = round($row[6], 2);
-                $method_teach = round($row[7], 2);
-                $pupil_smart = round($row[8], 2);
-                $physical = round($row[9], 2);
-                $total = round($row[10], 2);
-                $expert = $row[11];
+                $title = $row[1];
+                $rating = round($row[2], 2);
+//                $pupil_smart = round($row[8], 2);
+//                $physical = round($row[9], 2);
+//                $total = round($row[10], 2);
+//                $region_id = Region::find()->andWhere(['title' => $title])->one()->id;
+                $type = 1;
+//                if (!strpos($school_title, 'maktab')) {
+//                    $type = 2;
+//                }
 
-                $data[] = [$title, $prof_teach, $method_teach, $pupil_smart, $physical, $expert, $total, 2021];
+//                if (!$university_id) {
+//                    $title = substr($title, 0, strlen($title) - 15);
+////                    var_dump($title);
+//                    $university_id = University::find()->andWhere(['ilike', 'title', $title])->one()->id;
+////                    var_dump($university_id);
+////                    die();
+//                }
+
+                $data[] = [$title, $rating, 2021];
             }
 
-            Yii::$app->db->createCommand()->batchInsert('university', [
+            Yii::$app->db->createCommand()->batchInsert('liceum', [
                 'title',
-                'prof_teach',
-                'teach_method',
-                'pupil_smart',
-                'physical',
-                'expert',
-                'total',
-                'year'
+                'rating',
+                'year',
             ], $data)->execute();
             $transaction->commit();
         }

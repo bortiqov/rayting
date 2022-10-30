@@ -2,6 +2,7 @@
 
 namespace api\modules\v1\controllers;
 
+use common\components\ApiController;
 use common\components\CrudController;
 use common\models\Company;
 use common\models\School;
@@ -11,7 +12,7 @@ use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
 
-class SchoolController extends Controller
+class SchoolController extends ApiController
 {
 
     public function actions()
@@ -34,8 +35,6 @@ class SchoolController extends Controller
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
-
-        $dataProvider->pagination->pageSize = 100;
         return $dataProvider;
     }
 

@@ -29,8 +29,8 @@ class DistrictRating extends \yii\db\ActiveRecord
     {
         return [
             [['region_id'], 'default', 'value' => null],
-            [['region_id'], 'integer'],
-            [['rayting'], 'number'],
+            [['region_id', 'year'], 'integer'],
+            [['rating'], 'number'],
             [['title'], 'string', 'max' => 255],
         ];
     }

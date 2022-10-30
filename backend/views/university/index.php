@@ -53,7 +53,6 @@ $this->params['breadcrumbs'][] = $this->title;
                                 'dataProvider' => $dataProvider,
                             ]); ?>
                         </div>
-                        <?php ActiveForm::end() ?>
                     </div>
                 </div>
             </div>

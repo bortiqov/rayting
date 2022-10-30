@@ -8,6 +8,7 @@ use common\components\CrudController;
 use common\models\Company;
 use common\models\search\CompanySearch;
 use common\models\University;
+use common\models\UniversityRating;
 use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
@@ -34,7 +35,7 @@ class UniversityController extends ApiController
 
     public function actionIndex($year)
     {
-        $query = University::find()->andWhere(['year' => $year]);
+        $query = UniversityRating::find()->andWhere(['year' => $year]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);

@@ -16,6 +16,10 @@ use Yii;
  */
 class School extends \yii\db\ActiveRecord
 {
+
+    const TYPE_EASY = 1;
+    const TYPE_SPECIAL = 2;
+
     /**
      * {@inheritdoc}
      */
@@ -31,7 +35,7 @@ class School extends \yii\db\ActiveRecord
     {
         return [
             [['region_id'], 'default', 'value' => null],
-            [['region_id'], 'integer'],
+            [['region_id', 'type', 'year'], 'integer'],
             [['rayting'], 'number'],
             [['district_title', 'title'], 'string', 'max' => 255],
         ];
