@@ -58100,3 +58100,311 @@ $_SERVER = [
     'REQUEST_TIME_FLOAT' => 1667114664.8515
     'REQUEST_TIME' => 1667114664
 ]
+2022-10-30 10:32:48 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:32:48 [127.0.0.1][-][-][error][yii\db\Exception] PDOException: SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "year"
+LINE 1: ...versity_rating.university_id=university.id WHERE ("year"=$1)...
+                                                             ^ in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php:1302
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(1302): PDOStatement->execute()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(436): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Query.php(497): yii\db\Command->queryScalar()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\ActiveQuery.php(352): yii\db\Query->queryScalar()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar()
+#6 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count()
+#7 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php(50): yii\data\BaseDataProvider->getModels()
+#12 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Serializer.php(154): common\components\Serializer->serializeDataProvider()
+#13 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Controller.php(99): yii\rest\Serializer->serialize()
+#14 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Controller.php(77): yii\rest\Controller->serializeData()
+#15 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(180): yii\rest\Controller->afterAction()
+#16 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#17 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#18 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#19 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#20 {main}
+
+Next yii\db\Exception: SQLSTATE[42702]: Ambiguous column: 7 ОШИБКА:  неоднозначная ссылка на столбец "year"
+LINE 1: ...versity_rating.university_id=university.id WHERE ("year"=$1)...
+                                                             ^
+The SQL being executed was: SELECT COUNT(*) FROM "university_rating" LEFT JOIN "university" ON university_rating.university_id=university.id WHERE ("year"='2017') AND ("university"."expert"='1') in D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Schema.php:676
+Stack trace:
+#0 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(1307): yii\db\Schema->convertException()
+#1 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(1168): yii\db\Command->internalExecute()
+#2 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Command.php(436): yii\db\Command->queryInternal()
+#3 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Query.php(497): yii\db\Command->queryScalar()
+#4 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\ActiveQuery.php(352): yii\db\Query->queryScalar()
+#5 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\db\Query.php(368): yii\db\ActiveQuery->queryScalar()
+#6 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\ActiveDataProvider.php(168): yii\db\Query->count()
+#7 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(169): yii\data\ActiveDataProvider->prepareTotalCount()
+#8 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\ActiveDataProvider.php(105): yii\data\BaseDataProvider->getTotalCount()
+#9 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(101): yii\data\ActiveDataProvider->prepareModels()
+#10 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\data\BaseDataProvider.php(114): yii\data\BaseDataProvider->prepare()
+#11 D:\OpenServer\domains\projects\diplom-work\common\components\Serializer.php(50): yii\data\BaseDataProvider->getModels()
+#12 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Serializer.php(154): common\components\Serializer->serializeDataProvider()
+#13 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Controller.php(99): yii\rest\Serializer->serialize()
+#14 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\rest\Controller.php(77): yii\rest\Controller->serializeData()
+#15 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Controller.php(180): yii\rest\Controller->afterAction()
+#16 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Module.php(552): yii\base\Controller->runAction()
+#17 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\web\Application.php(103): yii\base\Module->runAction()
+#18 D:\OpenServer\domains\projects\diplom-work\vendor\yiisoft\yii2\base\Application.php(384): yii\web\Application->handleRequest()
+#19 D:\OpenServer\domains\projects\diplom-work\api\web\index.php(20): yii\base\Application->run()
+#20 {main}
+Additional Information:
+Array
+(
+    [0] => 42702
+    [1] => 7
+    [2] => ОШИБКА:  неоднозначная ссылка на столбец "year"
+LINE 1: ...versity_rating.university_id=university.id WHERE ("year"=$1)...
+                                                             ^
+)
+
+2022-10-30 10:32:48 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '1'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50561'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=1'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '8da2ca0b-9ea7-4659-ae8c-c753acbac400'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115168.0706
+    'REQUEST_TIME' => 1667115168
+]
+2022-10-30 10:33:10 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:33:10 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '1'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '50565'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=1'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=1'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '33baa2fe-5a45-4bb5-9971-b0c0d9bfccae'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115190.9531
+    'REQUEST_TIME' => 1667115190
+]
+2022-10-30 10:33:45 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:33:45 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '2'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52615'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=2'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=2'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '56d930c9-0556-4a47-adb7-e5f8a0b60945'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115225.0519
+    'REQUEST_TIME' => 1667115225
+]
+2022-10-30 10:33:51 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:33:51 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '3'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '52618'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=3'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => 'caee14bf-9135-4bf6-ac7e-2513166ecdae'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115231.3929
+    'REQUEST_TIME' => 1667115231
+]
+2022-10-30 10:34:40 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:34:40 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '3'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62493'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=3'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '7297918d-f7a0-4652-93ac-c0c7c236e0a6'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115280.6593
+    'REQUEST_TIME' => 1667115280
+]
+2022-10-30 10:34:57 [127.0.0.1][-][-][warning][application] Unable to use cache for URL manager: Failed to instantiate component or class "cache".
+2022-10-30 10:34:57 [127.0.0.1][-][-][info][application] $_GET = [
+    'year' => '2017'
+    'include' => 'university'
+    'filter' => [
+        'type' => '3'
+    ]
+]
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '62498'
+    'SERVER_SOFTWARE' => 'PHP 7.4.21 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '5050'
+    'REQUEST_URI' => '/v1/university/2017?include=university&filter[type]=3'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => 'D:\\OpenServer\\domains\\projects\\diplom-work\\api\\web\\index.php'
+    'PATH_INFO' => '/v1/university/2017'
+    'PHP_SELF' => '/index.php/v1/university/2017'
+    'QUERY_STRING' => 'include=university&filter[type]=3'
+    'HTTP_AUTHORIZATION' => '***'
+    'HTTP_USER_AGENT' => 'PostmanRuntime/7.29.2'
+    'HTTP_ACCEPT' => '*/*'
+    'HTTP_CACHE_CONTROL' => 'no-cache'
+    'HTTP_POSTMAN_TOKEN' => '4139a356-494c-4a56-bbc8-1e894f1b900a'
+    'HTTP_HOST' => 'localhost:5050'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'REQUEST_TIME_FLOAT' => 1667115297.6567
+    'REQUEST_TIME' => 1667115297
+]

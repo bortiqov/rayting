@@ -67,7 +67,10 @@ class University extends \yii\db\ActiveRecord
         return [
             'id',
             'title',
-            'expert',
+            'expertName' => function ($model) {
+                return $model->expertName->title;
+            },
+            'expert'
         ];
     }
 }
