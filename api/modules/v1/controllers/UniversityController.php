@@ -37,19 +37,19 @@ class UniversityController extends ApiController
     public function actionIndex($year)
     {
         $requestParams = \Yii::$app->request->queryParams;
-        $query = UniversityRating::find()->andWhere(['university_rating.year' => $year]);
+        $query = University::find();
         if ($requestParams['type']) {
             $query->leftJoin('university', 'university_rating.university_id=university.id')
                 ->andWhere(['university.expert' => $requestParams['type']]);
         }
 
+        $query->leftJoin('university_rating ur', 'university.id=ur.university_id')
+            ->andWhere(['ur.year' => $year])->orderBy(['ur.rating' => SORT_DESC]);
+
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
 
-//       qvar_dump(Yii::$app->request->post(),$_FILES);
-//        die();
-        $dataProvider->pagination->pageSize = 100;
         return $dataProvider;
     }
 

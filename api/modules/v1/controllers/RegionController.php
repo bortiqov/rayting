@@ -12,6 +12,7 @@ class RegionController extends ApiController
 {
 
     public $modelClass = Region::class;
+
     public $searchModel = Region::class;
 
     public function actions()
@@ -27,7 +28,7 @@ class RegionController extends ApiController
     {
         $query = Region::find();
 
-        $query->orderBy(['title' => SORT_ASC]);
+        $query->orderBy(['rating' => SORT_DESC]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
@@ -38,6 +39,7 @@ class RegionController extends ApiController
     public function actionDistrict($id)
     {
         $query = DistrictRating::find()->andWhere(['region_id' => $id]);
+        $query->orderBy(['rating' => SORT_DESC]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
@@ -55,14 +57,20 @@ class RegionController extends ApiController
     {
         $query = DistrictRating::find();
         $query->orderBy(['rating' => SORT_DESC]);
-        $dataProvider = new ActiveDataProvider([
-            'query' => $query
-        ]);
+
 
         $requestParams = \Yii::$app->request->queryParams;
         if ($requestParams['region_id']) {
             $query->andWhere(['region_id' => $requestParams['region_id']]);
         }
+
+        if ($requestParams['year']) {
+            $query->andWhere(['year' => $requestParams['year']]);
+        }
+
+        $dataProvider = new ActiveDataProvider([
+            'query' => $query
+        ]);
 
 
         return $dataProvider;

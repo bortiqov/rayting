@@ -62,6 +62,17 @@ class University extends \yii\db\ActiveRecord
         return $this->hasOne(Expert::class, ['id' => 'expert']);
     }
 
+    public function getRatings()
+    {
+        return $this->hasMany(UniversityRating::class, ['university_id' => 'id'])->orderBy(['year' => SORT_ASC]);
+    }
+
+    public function getRating()
+    {
+        $year = Yii::$app->request->get()['year'];
+        return $this->hasOne(UniversityRating::class, ['university_id' => 'id'])->andWhere(['year' => $year]);
+    }
+
     public function fields()
     {
         return [
@@ -70,7 +81,15 @@ class University extends \yii\db\ActiveRecord
             'expertName' => function ($model) {
                 return $model->expertName->title;
             },
-            'expert'
+            'expert',
+            'rating'
+        ];
+    }
+
+    public function extraFields()
+    {
+        return [
+            'ratings'
         ];
     }
 }

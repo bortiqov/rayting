@@ -77,6 +77,11 @@ class UniversityRating extends \yii\db\ActiveRecord
             'title' => function ($model) {
                 return $model->university->title;
             },
+            'number' => function ($model) {
+                return static::find()->andWhere(['<', 'id', $model->id])
+                        ->andWhere(['year' => $model->year])->count() + 1;
+            }
+
         ]);
     }
 
