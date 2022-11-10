@@ -9,6 +9,7 @@ use common\models\Company;
 use common\models\search\CompanySearch;
 use common\models\University;
 use common\models\UniversityRating;
+use SebastianBergmann\ObjectReflector\TestFixture\ChildClass;
 use yii\data\ActiveDataProvider;
 use yii\rest\Controller;
 use yii\rest\OptionsAction;
@@ -38,13 +39,15 @@ class UniversityController extends ApiController
     {
         $requestParams = \Yii::$app->request->queryParams;
         $query = University::find();
-        if ($requestParams['type']) {
-            $query->leftJoin('university', 'university_rating.university_id=university.id')
-                ->andWhere(['university.expert' => $requestParams['type']]);
-        }
 
         $query->leftJoin('university_rating ur', 'university.id=ur.university_id')
-            ->andWhere(['ur.year' => $year])->orderBy(['ur.rating' => SORT_DESC]);
+            ->andWhere(['ur.year' => $year]);
+        $query->orderBy(['ur.total' => SORT_DESC]);
+        if ($requestParams['type']) {
+            $query->andWhere(['university.expert' => $requestParams['type']]);
+        }
+
+//        $query->groupBy(['university.id']);
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query

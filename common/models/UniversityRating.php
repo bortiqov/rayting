@@ -80,7 +80,21 @@ class UniversityRating extends \yii\db\ActiveRecord
             'number' => function ($model) {
                 return static::find()->andWhere(['<', 'id', $model->id])
                         ->andWhere(['year' => $model->year])->count() + 1;
-            }
+            },
+            'oldNumber' => function ($model) {
+
+                if (static::find()->andWhere(['<', 'id', $model->id])
+                    ->andWhere(['year' => ($model->year - 1)])->exists()) {
+                    $id = static::find()->andWhere(['university_id' => $model->university_id])
+                        ->andWhere(['year' => ($model->year - 1)])->one()->id;
+                    return static::find()->andWhere(['<', 'id', $id])
+                            ->andWhere(['year' => ($model->year - 1)])->count() + 1;
+                }
+                return
+                    static::find()->andWhere(['<', 'id', $model->id])
+                        ->andWhere(['year' => $model->year])->count() + 1;
+
+            },
 
         ]);
     }

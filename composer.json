@@ -31,7 +31,8 @@
     "kreait/firebase-php": "^6.7",
     "ext-json": "*",
     "google/apiclient": "^2.12",
-    "shuchkin/simplexlsx": "^1.0"
+    "shuchkin/simplexlsx": "^1.0",
+    "yiisoft/yii2-mongodb": "^2.0"
   },
   "require-dev": {
     "yiisoft/yii2-debug": "~2.1.0",

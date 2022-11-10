@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "66e85c9742883173bf5948356c819773",
+    "content-hash": "205abeac46705fc67e937a9a1680083c",
     "packages": [
         {
             "name": "almasaeed2010/adminlte",
@@ -4265,6 +4265,61 @@
                 "wiki": "http://www.yiiframework.com/wiki/"
             },
             "time": "2019-06-04T12:38:50+00:00"
+        },
+        {
+            "name": "yiisoft/yii2-mongodb",
+            "version": "2.0.5",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/yiisoft/yii2-mongodb.git",
+                "reference": "b920e885b214bdd3b9409ab0c793384c2caf4c31"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/yiisoft/yii2-mongodb/zipball/b920e885b214bdd3b9409ab0c793384c2caf4c31",
+                "reference": "b920e885b214bdd3b9409ab0c793384c2caf4c31",
+                "shasum": ""
+            },
+            "require": {
+                "ext-mongo": ">=1.5.0",
+                "yiisoft/yii2": ">=2.0.5"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "branch-alias": {
+                    "dev-master": "2.0.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "yii\\mongodb\\": ""
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "BSD-3-Clause"
+            ],
+            "authors": [
+                {
+                    "name": "Paul Klimov",
+                    "email": "klimov.paul@gmail.com"
+                }
+            ],
+            "description": "MongoDb extension for the Yii framework",
+            "keywords": [
+                "active-record",
+                "mongo",
+                "mongodb",
+                "yii2"
+            ],
+            "support": {
+                "forum": "http://www.yiiframework.com/forum/",
+                "irc": "irc://irc.freenode.net/yii",
+                "issues": "https://github.com/yiisoft/yii2-mongodb/issues",
+                "source": "https://github.com/yiisoft/yii2-mongodb",
+                "wiki": "http://www.yiiframework.com/wiki/"
+            },
+            "time": "2016-05-09T10:57:48+00:00"
         },
         {
             "name": "yiisoft/yii2-swiftmailer",
