@@ -12,7 +12,7 @@ class SiteController extends Controller
     {
         return [
             "code" => 1,
-            "success" => "Welcome to test api"
+            "success" => "Welcome to rating api"
         ];
     }
 

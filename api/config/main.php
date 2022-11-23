@@ -13,6 +13,7 @@ return [
     'bootstrap' => ['log'],
     'modules' => [
         'v1' => \api\modules\v1\Module::class,
+        'rating' => \api\modules\rating\Module::class,
     ],
     'components' => [
         'request' => [
@@ -49,7 +50,7 @@ return [
         'urlManager' => [
             'enablePrettyUrl' => true,
             'showScriptName' => false,
-            'rules' => \api\modules\v1\Module::$urlRules
+            'rules' => array_merge(\api\modules\v1\Module::$urlRules, \api\modules\rating\Module::$urlRules)
         ],
 
     ],
