@@ -38,14 +38,17 @@ class RegionController extends ApiController
 
     public function actionDistrict($id)
     {
+
         $query = DistrictRating::find()->andWhere(['region_id' => $id]);
         $query->orderBy(['rating' => SORT_DESC]);
         $dataProvider = new ActiveDataProvider([
             'query' => $query
         ]);
 
-//        var_dump(Yii::$app->request->post(),$_FILES);
-//        die();
+        $year = \Yii::$app->request->queryParams['year'];
+        $query->andFilterWhere(['year' => $year]);
+
+
         $dataProvider->pagination->pageSize = 100;
 
         return $dataProvider;

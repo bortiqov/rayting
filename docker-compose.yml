@@ -23,16 +23,24 @@ services:
       - ./:/app
 
   mysql:
-    image: mysql:5.7
+    image: mysql:8.0
+    ports:
+      - 3306:3306
+    expose:
+      - "3306"
+    volumes:
+      - ./cache/mysql:/var/lib/mysql
+      - ./conf-mysql.cnf:/etc/mysql/conf.d/mysql.cnf
     environment:
-      - MYSQL_ROOT_PASSWORD=verysecret
-      - MYSQL_DATABASE=yii2advanced
-      - MYSQL_USER=yii2advanced
-      - MYSQL_PASSWORD=secret
+      - MYSQL_ROOT_PASSWORD=root
+      - MYSQL_PASSWORD=root
+      - MYSQL_USER=root
+      - MYSQL_DATABASE=mydb
+    restart: unless-stopped
 
-  #pgsql:
-  #  image: postgres:9.5
-  #  environment:
-  #    - POSTGRES_DB=yii2advanced
-  #    - POSTGRES_USER=yii2advanced
-  #    - POSTGRES_PASSWORD=secret
+#  pgsql:
+#    image: postgres:9.5
+#    environment:
+#      - POSTGRES_DB=test
+#      - POSTGRES_USER=postgres
+#      - POSTGRES_PASSWORD=
